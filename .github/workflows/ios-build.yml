@@ -3,30 +3,34 @@ name: Build iOS IPA (HorizonFS)
 # MANUAL TRIGGER ONLY: this workflow never runs on its own — it only spends
 # macOS minutes when someone clicks "Run workflow" in the Actions tab.
 #
-# FINAL IDENTITY (Joey, Nov 15, 2026): "HorizonFS: Mobile Flight Simulator"
-#   Bundle ID com.beatrackfaminc.horizonfs, clip
-#   com.beatrackfaminc.horizonfs.HorizonFS.
-#
 # HUMAN PREREQUISITES (do these first, or the upload step will fail):
 #   1. The App Store Connect app record for bundle ID
-#      com.beatrackfaminc.horizonfs must exist (Joey creates it — the
-#      agent never creates App IDs or profiles).
-#   2. Create the App ID + provisioning profiles in the Developer portal
-#      (main app "HorizonFS App" + App Clip "HorizonFS App Clip").
-#   3. In App Store Connect, create an API key and add these four repo
-#      secrets (Settings, Secrets and variables, Actions):
+#      com.beatrackfaminc.horizonfs ("HorizonFS: Mobile Flight Simulator")
+#      does NOT exist yet — create it in App Store Connect first.
+#   2. In Apple Developer / App Store Connect, create an API key and add
+#      these repo secrets (Settings, Secrets and variables, Actions):
 #        ASC_API_KEY_ID, ASC_API_KEY_P8, ASC_API_ISSUER_ID, APPLE_TEAM_ID
-#   4. APP CLIP (bundle ID com.beatrackfaminc.horizonfs.HorizonFS): a
-#      provisioning profile named exactly "HorizonFS App Clip" must exist
-#      in the portal — App Store distribution, for that App ID, including
-#      the Nov 6 Apple Distribution certificate. The plugin sets both
-#      profiles per-target in the project, so the archive step deliberately
-#      does NOT pass PROVISIONING_PROFILE_SPECIFIER on the command line —
-#      a command-line value would override BOTH targets with one profile.
+#      plus the distribution certificate secrets:
+#        IOS_DISTRIBUTION_P12, IOS_DISTRIBUTION_PASSWORD
+#   3. APP CLIP (bundle ID com.beatrackfaminc.horizonfs.HorizonFS — the App ID does NOT exist
+#      yet): create it in the Developer portal ("HorizonFS App Clip"; do
+#      not create another one once it exists), plus the App ID for the
+#      main app, and provisioning profiles named exactly "HorizonFS App"
+#      and "HorizonFS App Clip" (App Store distribution, including the Nov 6
+#      Apple Distribution certificate). Until those profiles exist, the
+#      archive step fails on signing. The plugin
+#      (plugins/with-app-clip.js) sets both profiles per-target in the
+#      project, so the archive step deliberately does NOT pass
+#      PROVISIONING_PROFILE_SPECIFIER on the command line.
+#   4. There is NO Supabase step in this workflow: the sim does
+#      not use Supabase yet (accounts come later). When a
+#      Supabase project lands, add the eas.json env + the
+#      "Load Supabase config" step from the Flight Journal
+#      workflow.
 #
-# Pattern copied from the proven workflow in the Snugbug app repo
-# (Joeey1116/snugbug-ai-companion-app/.github/workflows/ios-build.yml),
-# which itself copied the main BeaTrackFam app repo.
+# Pattern copied from the proven workflow in the HorizonFS repo
+# (Joeey1116/horizonfs-ai-companion-app/.github/workflows/ios-build.yml),
+# itself modeled on the main BeaTrackFam app repo.
 
 on:
   workflow_dispatch:

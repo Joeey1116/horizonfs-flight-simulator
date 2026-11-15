@@ -6,12 +6,9 @@ name: Build Android AAB (HorizonFS)
 # With "upload_to_play" ON, it also uploads to Google Play PRODUCTION as a
 # completed release (Google still reviews it before it goes live).
 #
-# FINAL IDENTITY (Joey, Nov 15, 2026): "HorizonFS: Mobile Flight Simulator"
-#   Package com.beatrackfaminc.horizonfs.
-#
 # HUMAN PREREQUISITES (do these first):
-#   1. This app needs its OWN upload keystore — do NOT reuse another app's
-#      keystore. Generate one with EAS
+#   1. This app needs its OWN upload keystore — do NOT reuse the main
+#      BeaTrackFam app's keystore. Generate one with EAS
 #      (npx eas-cli credentials -p android) or keytool, then base64-encode
 #      the .jks into the ANDROID_KEYSTORE_BASE64 secret.
 #   2. Create the Play Console app record for package
@@ -22,8 +19,8 @@ name: Build Android AAB (HorizonFS)
 # points the release build at it via .github/scripts/android-signing.py
 # (copied from the proven main-app repo), and deletes it after.
 #
-# Pattern modeled on the proven workflow in the Snugbug app repo
-# (Joeey1116/snugbug-ai-companion-app/.github/workflows/android-build.yml).
+# Pattern modeled on the proven workflow in the main BeaTrackFam app repo
+# (Joeey1116/BeaTrackFam-Mobile-App/.github/workflows/android-build.yml).
 
 on:
   workflow_dispatch:
