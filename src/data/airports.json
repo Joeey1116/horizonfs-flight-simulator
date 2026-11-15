@@ -1,0 +1,3268 @@
+[
+ {
+  "icao": "KJFK",
+  "iata": "JFK",
+  "name": "John F. Kennedy International Airport",
+  "city": "New York",
+  "country": "US",
+  "latitude": 40.63945,
+  "longitude": -73.77932,
+  "elevationFt": 13,
+  "featured": true,
+  "runways": [
+   {
+    "ident": "13R",
+    "lengthFt": 14511,
+    "headingDeg": 121,
+    "surface": "PEM"
+   },
+   {
+    "ident": "04L",
+    "lengthFt": 12079,
+    "headingDeg": 31,
+    "surface": "PEM"
+   }
+  ]
+ },
+ {
+  "icao": "KLAX",
+  "iata": "LAX",
+  "name": "Los Angeles International Airport",
+  "city": "Los Angeles",
+  "country": "US",
+  "latitude": 33.9425,
+  "longitude": -118.408,
+  "elevationFt": 125,
+  "featured": true,
+  "runways": [
+   {
+    "ident": "7L",
+    "lengthFt": 12894,
+    "headingDeg": 83,
+    "surface": "CON"
+   },
+   {
+    "ident": "7R",
+    "lengthFt": 11095,
+    "headingDeg": 83,
+    "surface": "CON"
+   }
+  ]
+ },
+ {
+  "icao": "KATL",
+  "iata": "ATL",
+  "name": "Hartsfield Jackson Atlanta International Airport",
+  "city": "Atlanta",
+  "country": "US",
+  "latitude": 33.6367,
+  "longitude": -84.4281,
+  "elevationFt": 1026,
+  "featured": true,
+  "runways": [
+   {
+    "ident": "09L",
+    "lengthFt": 12390,
+    "headingDeg": 90,
+    "surface": "CON"
+   },
+   {
+    "ident": "08R",
+    "lengthFt": 9999,
+    "headingDeg": 90,
+    "surface": "CON"
+   }
+  ]
+ },
+ {
+  "icao": "KORD",
+  "iata": "ORD",
+  "name": "Chicago O'Hare International Airport",
+  "city": "Chicago",
+  "country": "US",
+  "latitude": 41.9786,
+  "longitude": -87.9048,
+  "elevationFt": 680,
+  "featured": true,
+  "runways": [
+   {
+    "ident": "09R",
+    "lengthFt": 11260,
+    "headingDeg": 90,
+    "surface": "ASP"
+   },
+   {
+    "ident": "04R",
+    "lengthFt": 8075,
+    "headingDeg": 42,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "KDFW",
+  "iata": "DFW",
+  "name": "Dallas Fort Worth International Airport",
+  "city": "Dallas-Fort Worth",
+  "country": "US",
+  "latitude": 32.8968,
+  "longitude": -97.038,
+  "elevationFt": 607,
+  "featured": true,
+  "runways": [
+   {
+    "ident": "18L",
+    "lengthFt": 13401,
+    "headingDeg": 180,
+    "surface": "CON"
+   },
+   {
+    "ident": "17C",
+    "lengthFt": 13400,
+    "headingDeg": 180,
+    "surface": "CON"
+   }
+  ]
+ },
+ {
+  "icao": "KDEN",
+  "iata": "DEN",
+  "name": "Denver International Airport",
+  "city": "Denver",
+  "country": "US",
+  "latitude": 39.86003,
+  "longitude": -104.67379,
+  "elevationFt": 5431,
+  "featured": true,
+  "runways": [
+   {
+    "ident": "16R",
+    "lengthFt": 16000,
+    "headingDeg": 180,
+    "surface": "CON"
+   },
+   {
+    "ident": "07",
+    "lengthFt": 12000,
+    "headingDeg": 90,
+    "surface": "CON"
+   }
+  ]
+ },
+ {
+  "icao": "KSFO",
+  "iata": "SFO",
+  "name": "San Francisco International Airport",
+  "city": "San Francisco",
+  "country": "US",
+  "latitude": 37.61981,
+  "longitude": -122.37482,
+  "elevationFt": 13,
+  "featured": true,
+  "runways": [
+   {
+    "ident": "10L",
+    "lengthFt": 11870,
+    "headingDeg": 118,
+    "surface": "ASP"
+   },
+   {
+    "ident": "10R",
+    "lengthFt": 11381,
+    "headingDeg": 118,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "KLAS",
+  "iata": "LAS",
+  "name": "Harry Reid International Airport",
+  "city": "Las Vegas",
+  "country": "US",
+  "latitude": 36.08336,
+  "longitude": -115.15182,
+  "elevationFt": 2181,
+  "featured": true,
+  "runways": [
+   {
+    "ident": "08L",
+    "lengthFt": 14835,
+    "headingDeg": 90,
+    "surface": "ASP"
+   },
+   {
+    "ident": "08R",
+    "lengthFt": 10526,
+    "headingDeg": 90,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "KMIA",
+  "iata": "MIA",
+  "name": "Miami International Airport",
+  "city": "Miami",
+  "country": "US",
+  "latitude": 25.79601,
+  "longitude": -80.28975,
+  "elevationFt": 8,
+  "featured": true,
+  "runways": [
+   {
+    "ident": "09",
+    "lengthFt": 13016,
+    "headingDeg": 87,
+    "surface": "ASP"
+   },
+   {
+    "ident": "08R",
+    "lengthFt": 10506,
+    "headingDeg": 87,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "KSEA",
+  "iata": "SEA",
+  "name": "Seattle–Tacoma International Airport",
+  "city": "Seattle",
+  "country": "US",
+  "latitude": 47.44794,
+  "longitude": -122.31028,
+  "elevationFt": 433,
+  "featured": true,
+  "runways": [
+   {
+    "ident": "16L",
+    "lengthFt": 11901,
+    "headingDeg": 180,
+    "surface": "PEM"
+   },
+   {
+    "ident": "16C",
+    "lengthFt": 9426,
+    "headingDeg": 180,
+    "surface": "PEM"
+   }
+  ]
+ },
+ {
+  "icao": "KBOS",
+  "iata": "BOS",
+  "name": "Boston Logan International Airport",
+  "city": "Boston",
+  "country": "US",
+  "latitude": 42.36197,
+  "longitude": -71.0079,
+  "elevationFt": 20,
+  "featured": true,
+  "runways": [
+   {
+    "ident": "15R",
+    "lengthFt": 10083,
+    "headingDeg": 135,
+    "surface": "ASP"
+   },
+   {
+    "ident": "04R",
+    "lengthFt": 10006,
+    "headingDeg": 20,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "KEWR",
+  "iata": "EWR",
+  "name": "Newark Liberty International Airport",
+  "city": "Newark",
+  "country": "US",
+  "latitude": 40.6894,
+  "longitude": -74.17055,
+  "elevationFt": 18,
+  "featured": true,
+  "runways": [
+   {
+    "ident": "4L",
+    "lengthFt": 11000,
+    "headingDeg": 26,
+    "surface": "ASP"
+   },
+   {
+    "ident": "4R",
+    "lengthFt": 9999,
+    "headingDeg": 26,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "KLGA",
+  "iata": "LGA",
+  "name": "LaGuardia Airport",
+  "city": "New York",
+  "country": "US",
+  "latitude": 40.7772,
+  "longitude": -73.8726,
+  "elevationFt": 21,
+  "featured": true,
+  "runways": [
+   {
+    "ident": "04",
+    "lengthFt": 7002,
+    "headingDeg": 32,
+    "surface": "ASP"
+   },
+   {
+    "ident": "13",
+    "lengthFt": 7002,
+    "headingDeg": 122,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "KDCA",
+  "iata": "DCA",
+  "name": "Ronald Reagan Washington National Airport",
+  "city": "Washington",
+  "country": "US",
+  "latitude": 38.8521,
+  "longitude": -77.0377,
+  "elevationFt": 15,
+  "featured": true,
+  "runways": [
+   {
+    "ident": "01",
+    "lengthFt": 7169,
+    "headingDeg": 356,
+    "surface": "ASP"
+   },
+   {
+    "ident": "15",
+    "lengthFt": 5204,
+    "headingDeg": 143,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "KCLT",
+  "iata": "CLT",
+  "name": "Charlotte Douglas International Airport",
+  "city": "Charlotte",
+  "country": "US",
+  "latitude": 35.214,
+  "longitude": -80.9431,
+  "elevationFt": 748,
+  "featured": true,
+  "runways": [
+   {
+    "ident": "01R",
+    "lengthFt": 10000,
+    "headingDeg": 176,
+    "surface": "CONC-F"
+   },
+   {
+    "ident": "18",
+    "lengthFt": 8676,
+    "headingDeg": 176,
+    "surface": "PEM"
+   }
+  ]
+ },
+ {
+  "icao": "KPHX",
+  "iata": "PHX",
+  "name": "Phoenix Sky Harbor International Airport",
+  "city": "Phoenix",
+  "country": "US",
+  "latitude": 33.4353,
+  "longitude": -112.0059,
+  "elevationFt": 1135,
+  "featured": true,
+  "runways": [
+   {
+    "ident": "07L",
+    "lengthFt": 10300,
+    "headingDeg": 90,
+    "surface": "ASP"
+   },
+   {
+    "ident": "08",
+    "lengthFt": 11489,
+    "headingDeg": 90,
+    "surface": "CON"
+   }
+  ]
+ },
+ {
+  "icao": "KIAH",
+  "iata": "IAH",
+  "name": "George Bush Intercontinental Airport",
+  "city": "Houston",
+  "country": "US",
+  "latitude": 29.9844,
+  "longitude": -95.3414,
+  "elevationFt": 97,
+  "featured": true,
+  "runways": [
+   {
+    "ident": "09",
+    "lengthFt": 10000,
+    "headingDeg": 90,
+    "surface": "ASP"
+   },
+   {
+    "ident": "15L",
+    "lengthFt": 12001,
+    "headingDeg": 152,
+    "surface": "CON"
+   }
+  ]
+ },
+ {
+  "icao": "KDTW",
+  "iata": "DTW",
+  "name": "Detroit Metropolitan Wayne County Airport",
+  "city": "Detroit",
+  "country": "US",
+  "latitude": 42.21377,
+  "longitude": -83.35379,
+  "elevationFt": 645,
+  "featured": true,
+  "runways": [
+   {
+    "ident": "09L",
+    "lengthFt": 8708,
+    "headingDeg": 89,
+    "surface": "PEM"
+   },
+   {
+    "ident": "03L",
+    "lengthFt": 8501,
+    "headingDeg": 29,
+    "surface": "PEM"
+   }
+  ]
+ },
+ {
+  "icao": "KMSP",
+  "iata": "MSP",
+  "name": "Minneapolis–Saint Paul International Airport / Wold–Chamberlain Field",
+  "city": "Minneapolis",
+  "country": "US",
+  "latitude": 44.88008,
+  "longitude": -93.22174,
+  "elevationFt": 841,
+  "featured": true,
+  "runways": [
+   {
+    "ident": "12R",
+    "lengthFt": 10000,
+    "headingDeg": 121,
+    "surface": "PEM"
+   },
+   {
+    "ident": "12L",
+    "lengthFt": 8200,
+    "headingDeg": 121,
+    "surface": "PEM"
+   }
+  ]
+ },
+ {
+  "icao": "KSLC",
+  "iata": "SLC",
+  "name": "Salt Lake City International Airport",
+  "city": "Salt Lake City",
+  "country": "US",
+  "latitude": 40.78886,
+  "longitude": -111.97987,
+  "elevationFt": 4227,
+  "featured": true,
+  "runways": [
+   {
+    "ident": "16L",
+    "lengthFt": 12002,
+    "headingDeg": 175,
+    "surface": "ASP"
+   },
+   {
+    "ident": "17",
+    "lengthFt": 9596,
+    "headingDeg": 180,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "KSAN",
+  "iata": "SAN",
+  "name": "San Diego International Airport",
+  "city": "San Diego",
+  "country": "US",
+  "latitude": 32.7336,
+  "longitude": -117.19,
+  "elevationFt": 17,
+  "featured": true,
+  "runways": [
+   {
+    "ident": "09",
+    "lengthFt": 9401,
+    "headingDeg": 106,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "KTPA",
+  "iata": "TPA",
+  "name": "Tampa International Airport",
+  "city": "Tampa",
+  "country": "US",
+  "latitude": 27.9755,
+  "longitude": -82.5332,
+  "elevationFt": 26,
+  "featured": true,
+  "runways": [
+   {
+    "ident": "19L",
+    "lengthFt": 8300,
+    "headingDeg": 182,
+    "surface": "PEM"
+   },
+   {
+    "ident": "10",
+    "lengthFt": 6999,
+    "headingDeg": 92,
+    "surface": "PEM"
+   }
+  ]
+ },
+ {
+  "icao": "KMCO",
+  "iata": "MCO",
+  "name": "Orlando International Airport",
+  "city": "Orlando",
+  "country": "US",
+  "latitude": 28.4294,
+  "longitude": -81.309,
+  "elevationFt": 96,
+  "featured": true,
+  "runways": [
+   {
+    "ident": "18L",
+    "lengthFt": 12005,
+    "headingDeg": 179,
+    "surface": "PEM"
+   },
+   {
+    "ident": "17L",
+    "lengthFt": 9001,
+    "headingDeg": 180,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "KPDX",
+  "iata": "PDX",
+  "name": "Portland International Airport",
+  "city": "Portland",
+  "country": "US",
+  "latitude": 45.5887,
+  "longitude": -122.598,
+  "elevationFt": 31,
+  "featured": true,
+  "runways": [
+   {
+    "ident": "10R",
+    "lengthFt": 11000,
+    "headingDeg": 119,
+    "surface": "ASP"
+   },
+   {
+    "ident": "10L",
+    "lengthFt": 9825,
+    "headingDeg": 119,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "CYYZ",
+  "iata": "YYZ",
+  "name": "Toronto Pearson International Airport",
+  "city": "Toronto",
+  "country": "CA",
+  "latitude": 43.67594,
+  "longitude": -79.62942,
+  "elevationFt": 569,
+  "featured": true,
+  "runways": [
+   {
+    "ident": "15L",
+    "lengthFt": 11050,
+    "headingDeg": 137,
+    "surface": "ASP"
+   },
+   {
+    "ident": "06L",
+    "lengthFt": 9697,
+    "headingDeg": 47,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "CYVR",
+  "iata": "YVR",
+  "name": "Vancouver International Airport",
+  "city": "Vancouver",
+  "country": "CA",
+  "latitude": 49.1939,
+  "longitude": -123.184,
+  "elevationFt": 14,
+  "featured": true,
+  "runways": [
+   {
+    "ident": "08R",
+    "lengthFt": 11500,
+    "headingDeg": 100,
+    "surface": "ASP"
+   },
+   {
+    "ident": "08L",
+    "lengthFt": 9940,
+    "headingDeg": 100,
+    "surface": "CON"
+   }
+  ]
+ },
+ {
+  "icao": "CYUL",
+  "iata": "YUL",
+  "name": "Montreal / Pierre Elliott Trudeau International Airport",
+  "city": "Montréal",
+  "country": "CA",
+  "latitude": 45.46784,
+  "longitude": -73.74229,
+  "elevationFt": 118,
+  "featured": true,
+  "runways": [
+   {
+    "ident": "06L",
+    "lengthFt": 11000,
+    "headingDeg": 43,
+    "surface": "ASP"
+   },
+   {
+    "ident": "06R",
+    "lengthFt": 9600,
+    "headingDeg": 41,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "MMUN",
+  "iata": "CUN",
+  "name": "Cancún International Airport",
+  "city": "Cancún",
+  "country": "MX",
+  "latitude": 21.04082,
+  "longitude": -86.87347,
+  "elevationFt": 22,
+  "featured": true,
+  "runways": [
+   {
+    "ident": "12R",
+    "lengthFt": 11483,
+    "headingDeg": 124,
+    "surface": "ASP"
+   },
+   {
+    "ident": "12L",
+    "lengthFt": 9186,
+    "headingDeg": 124,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "SBGR",
+  "iata": "GRU",
+  "name": "São Paulo/Guarulhos–Governor André Franco Montoro International Airport",
+  "city": "São Paulo",
+  "country": "BR",
+  "latitude": -23.43127,
+  "longitude": -46.46995,
+  "elevationFt": 2461,
+  "featured": true,
+  "runways": [
+   {
+    "ident": "10L",
+    "lengthFt": 12139,
+    "headingDeg": 74,
+    "surface": "ASP"
+   },
+   {
+    "ident": "10R",
+    "lengthFt": 9843,
+    "headingDeg": 74,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "SAEZ",
+  "iata": "EZE",
+  "name": "Ezeiza International Airport - Ministro Pistarini",
+  "city": "Buenos Aires (Ezeiza)",
+  "country": "AR",
+  "latitude": -34.8222,
+  "longitude": -58.5358,
+  "elevationFt": 67,
+  "featured": true,
+  "runways": [
+   {
+    "ident": "11",
+    "lengthFt": 10827,
+    "headingDeg": 102,
+    "surface": "ASP"
+   },
+   {
+    "ident": "17",
+    "lengthFt": 10187,
+    "headingDeg": 164,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "SCEL",
+  "iata": "SCL",
+  "name": "Comodoro Arturo Merino Benítez International Airport",
+  "city": "Santiago",
+  "country": "CL",
+  "latitude": -33.39025,
+  "longitude": -70.7947,
+  "elevationFt": 1555,
+  "featured": true,
+  "runways": [
+   {
+    "ident": "17L",
+    "lengthFt": 12303,
+    "headingDeg": 178,
+    "surface": "ASP"
+   },
+   {
+    "ident": "17R",
+    "lengthFt": 12303,
+    "headingDeg": 177,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "SPJC",
+  "iata": "LIM",
+  "name": "Jorge Chávez International Airport",
+  "city": "Lima",
+  "country": "PE",
+  "latitude": -12.0219,
+  "longitude": -77.11431,
+  "elevationFt": 113,
+  "featured": true,
+  "runways": [
+   {
+    "ident": "16R",
+    "lengthFt": 11417,
+    "headingDeg": 154,
+    "surface": "CONC"
+   },
+   {
+    "ident": "16L",
+    "lengthFt": 11506,
+    "headingDeg": 154,
+    "surface": "CON"
+   }
+  ]
+ },
+ {
+  "icao": "EGLL",
+  "iata": "LHR",
+  "name": "London Heathrow Airport",
+  "city": "London",
+  "country": "GB",
+  "latitude": 51.47075,
+  "longitude": -0.45991,
+  "elevationFt": 83,
+  "featured": true,
+  "runways": [
+   {
+    "ident": "09L",
+    "lengthFt": 12799,
+    "headingDeg": 90,
+    "surface": "ASP"
+   },
+   {
+    "ident": "09R",
+    "lengthFt": 12001,
+    "headingDeg": 90,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "EHAM",
+  "iata": "AMS",
+  "name": "Amsterdam Airport Schiphol",
+  "city": "Amsterdam",
+  "country": "NL",
+  "latitude": 52.3086,
+  "longitude": 4.76389,
+  "elevationFt": -11,
+  "featured": true,
+  "runways": [
+   {
+    "ident": "18R",
+    "lengthFt": 12467,
+    "headingDeg": 183,
+    "surface": "ASP"
+   },
+   {
+    "ident": "09",
+    "lengthFt": 11329,
+    "headingDeg": 87,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "LFPG",
+  "iata": "CDG",
+  "name": "Charles de Gaulle International Airport",
+  "city": "Paris (Roissy-en-France, Val-d'Oise)",
+  "country": "FR",
+  "latitude": 49.00896,
+  "longitude": 2.55412,
+  "elevationFt": 392,
+  "featured": true,
+  "runways": [
+   {
+    "ident": "08L",
+    "lengthFt": 13829,
+    "headingDeg": 85,
+    "surface": "ASP"
+   },
+   {
+    "ident": "09R",
+    "lengthFt": 13780,
+    "headingDeg": 86,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "EDDF",
+  "iata": "FRA",
+  "name": "Frankfurt Main Airport",
+  "city": "Frankfurt am Main",
+  "country": "DE",
+  "latitude": 50.02671,
+  "longitude": 8.55835,
+  "elevationFt": 364,
+  "featured": true,
+  "runways": [
+   {
+    "ident": "07C",
+    "lengthFt": 13123,
+    "headingDeg": 70,
+    "surface": "ASP"
+   },
+   {
+    "ident": "07R",
+    "lengthFt": 13123,
+    "headingDeg": 70,
+    "surface": "CON"
+   }
+  ]
+ },
+ {
+  "icao": "LEMD",
+  "iata": "MAD",
+  "name": "Adolfo Suárez Madrid–Barajas Airport",
+  "city": "Madrid",
+  "country": "ES",
+  "latitude": 40.49341,
+  "longitude": -3.57225,
+  "elevationFt": 1998,
+  "featured": true,
+  "runways": [
+   {
+    "ident": "18R",
+    "lengthFt": 14271,
+    "headingDeg": 181,
+    "surface": "ASP"
+   },
+   {
+    "ident": "14R",
+    "lengthFt": 13084,
+    "headingDeg": 144,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "LIRF",
+  "iata": "FCO",
+  "name": "Rome–Fiumicino Leonardo da Vinci International Airport",
+  "city": "Rome",
+  "country": "IT",
+  "latitude": 41.80453,
+  "longitude": 12.252,
+  "elevationFt": 13,
+  "featured": true,
+  "runways": [
+   {
+    "ident": "16L",
+    "lengthFt": 12801,
+    "headingDeg": 163,
+    "surface": "ASP"
+   },
+   {
+    "ident": "16R",
+    "lengthFt": 12801,
+    "headingDeg": 163,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "LEBL",
+  "iata": "BCN",
+  "name": "Josep Tarradellas Barcelona-El Prat Airport",
+  "city": "Barcelona",
+  "country": "ES",
+  "latitude": 41.2971,
+  "longitude": 2.07846,
+  "elevationFt": 12,
+  "featured": true,
+  "runways": [
+   {
+    "ident": "06L",
+    "lengthFt": 11000,
+    "headingDeg": 66,
+    "surface": "ASP"
+   },
+   {
+    "ident": "06R",
+    "lengthFt": 8727,
+    "headingDeg": 66,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "LSZH",
+  "iata": "ZRH",
+  "name": "Zürich Airport",
+  "city": "Zurich",
+  "country": "CH",
+  "latitude": 47.45806,
+  "longitude": 8.54806,
+  "elevationFt": 1417,
+  "featured": true,
+  "runways": [
+   {
+    "ident": "16",
+    "lengthFt": 12139,
+    "headingDeg": 155,
+    "surface": "CON"
+   },
+   {
+    "ident": "14",
+    "lengthFt": 10827,
+    "headingDeg": 137,
+    "surface": "CON"
+   }
+  ]
+ },
+ {
+  "icao": "LOWW",
+  "iata": "VIE",
+  "name": "Vienna International Airport",
+  "city": "Vienna",
+  "country": "AT",
+  "latitude": 48.1103,
+  "longitude": 16.5697,
+  "elevationFt": 600,
+  "featured": true,
+  "runways": [
+   {
+    "ident": "16",
+    "lengthFt": 11811,
+    "headingDeg": 164,
+    "surface": "ASP"
+   },
+   {
+    "ident": "11",
+    "lengthFt": 11483,
+    "headingDeg": 116,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "EKCH",
+  "iata": "CPH",
+  "name": "Copenhagen Kastrup Airport",
+  "city": "Copenhagen",
+  "country": "DK",
+  "latitude": 55.6179,
+  "longitude": 12.656,
+  "elevationFt": 17,
+  "featured": true,
+  "runways": [
+   {
+    "ident": "04L",
+    "lengthFt": 11811,
+    "headingDeg": 41,
+    "surface": "ASP"
+   },
+   {
+    "ident": "04R",
+    "lengthFt": 10827,
+    "headingDeg": 41,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "ENGM",
+  "iata": "OSL",
+  "name": "Oslo-Gardermoen International Airport",
+  "city": "Oslo (Gardermoen)",
+  "country": "NO",
+  "latitude": 60.1939,
+  "longitude": 11.1004,
+  "elevationFt": 681,
+  "featured": true,
+  "runways": [
+   {
+    "ident": "01L",
+    "lengthFt": 11811,
+    "headingDeg": 16,
+    "surface": "ASP"
+   },
+   {
+    "ident": "01R",
+    "lengthFt": 9678,
+    "headingDeg": 16,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "ESSA",
+  "iata": "ARN",
+  "name": "Stockholm-Arlanda Airport",
+  "city": "Stockholm",
+  "country": "SE",
+  "latitude": 59.64849,
+  "longitude": 17.92883,
+  "elevationFt": 137,
+  "featured": true,
+  "runways": [
+   {
+    "ident": "01L",
+    "lengthFt": 10830,
+    "headingDeg": 10,
+    "surface": "ASP"
+   },
+   {
+    "ident": "08",
+    "lengthFt": 8202,
+    "headingDeg": 76,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "EPWA",
+  "iata": "WAW",
+  "name": "Warsaw Chopin Airport",
+  "city": "Warsaw",
+  "country": "PL",
+  "latitude": 52.1657,
+  "longitude": 20.9671,
+  "elevationFt": 362,
+  "featured": true,
+  "runways": [
+   {
+    "ident": "15",
+    "lengthFt": 12106,
+    "headingDeg": 152,
+    "surface": "ASPH"
+   },
+   {
+    "ident": "11",
+    "lengthFt": 9186,
+    "headingDeg": 115,
+    "surface": "ASPH"
+   }
+  ]
+ },
+ {
+  "icao": "LTFM",
+  "iata": "IST",
+  "name": "İstanbul Airport",
+  "city": "Istanbul",
+  "country": "TR",
+  "latitude": 41.27487,
+  "longitude": 28.73214,
+  "elevationFt": 325,
+  "featured": true,
+  "runways": [
+   {
+    "ident": "17L",
+    "lengthFt": 13451,
+    "headingDeg": 174,
+    "surface": "ASP"
+   },
+   {
+    "ident": "17R",
+    "lengthFt": 13451,
+    "headingDeg": 174,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "LGAV",
+  "iata": "ATH",
+  "name": "Athens Eleftherios Venizelos International Airport",
+  "city": "Spata-Artemida",
+  "country": "GR",
+  "latitude": 37.9364,
+  "longitude": 23.9445,
+  "elevationFt": 308,
+  "featured": true,
+  "runways": [
+   {
+    "ident": "03R",
+    "lengthFt": 13123,
+    "headingDeg": 37,
+    "surface": "ASP"
+   },
+   {
+    "ident": "03L",
+    "lengthFt": 12467,
+    "headingDeg": 37,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "LROP",
+  "iata": "OTP",
+  "name": "Bucharest Henri Coandă International Airport",
+  "city": "Otopeni",
+  "country": "RO",
+  "latitude": 44.57179,
+  "longitude": 26.10328,
+  "elevationFt": 314,
+  "featured": true,
+  "runways": [
+   {
+    "ident": "08L",
+    "lengthFt": 11484,
+    "headingDeg": 84,
+    "surface": "ASP"
+   },
+   {
+    "ident": "08R",
+    "lengthFt": 11484,
+    "headingDeg": 84,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "OMDB",
+  "iata": "DXB",
+  "name": "Dubai International Airport",
+  "city": "Dubai",
+  "country": "AE",
+  "latitude": 25.24979,
+  "longitude": 55.37099,
+  "elevationFt": 62,
+  "featured": true,
+  "runways": [
+   {
+    "ident": "12R",
+    "lengthFt": 14590,
+    "headingDeg": 121,
+    "surface": "ASP"
+   },
+   {
+    "ident": "12L",
+    "lengthFt": 14275,
+    "headingDeg": 121,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "OTHH",
+  "iata": "DOH",
+  "name": "Hamad International Airport",
+  "city": "Doha",
+  "country": "QA",
+  "latitude": 25.27306,
+  "longitude": 51.60806,
+  "elevationFt": 13,
+  "featured": true,
+  "runways": [
+   {
+    "ident": "16L",
+    "lengthFt": 15912,
+    "headingDeg": 156,
+    "surface": "Asphalt"
+   },
+   {
+    "ident": "16R",
+    "lengthFt": 13944,
+    "headingDeg": 156,
+    "surface": "Asphalt"
+   }
+  ]
+ },
+ {
+  "icao": "OERK",
+  "iata": "RUH",
+  "name": "King Khalid International Airport",
+  "city": "Riyadh",
+  "country": "SA",
+  "latitude": 24.9576,
+  "longitude": 46.6988,
+  "elevationFt": 2049,
+  "featured": true,
+  "runways": [
+   {
+    "ident": "15L",
+    "lengthFt": 13796,
+    "headingDeg": 150,
+    "surface": "ASP"
+   },
+   {
+    "ident": "15R",
+    "lengthFt": 13796,
+    "headingDeg": 150,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "VHHH",
+  "iata": "HKG",
+  "name": "Hong Kong International Airport",
+  "city": "Hong Kong",
+  "country": "HK",
+  "latitude": 22.31184,
+  "longitude": 113.91486,
+  "elevationFt": 28,
+  "featured": true,
+  "runways": [
+   {
+    "ident": "07C",
+    "lengthFt": 12467,
+    "headingDeg": 71,
+    "surface": "ASP"
+   },
+   {
+    "ident": "07L",
+    "lengthFt": 12467,
+    "headingDeg": 74,
+    "surface": "ASPH"
+   }
+  ]
+ },
+ {
+  "icao": "WSSS",
+  "iata": "SIN",
+  "name": "Singapore Changi Airport",
+  "city": "Singapore",
+  "country": "SG",
+  "latitude": 1.35019,
+  "longitude": 103.994,
+  "elevationFt": 22,
+  "featured": true,
+  "runways": [
+   {
+    "ident": "02C",
+    "lengthFt": 13123,
+    "headingDeg": 23,
+    "surface": "PEM"
+   },
+   {
+    "ident": "02L",
+    "lengthFt": 13123,
+    "headingDeg": 23,
+    "surface": "PEM"
+   }
+  ]
+ },
+ {
+  "icao": "RJTT",
+  "iata": "HND",
+  "name": "Tokyo Haneda International Airport",
+  "city": "Tokyo",
+  "country": "JP",
+  "latitude": 35.54968,
+  "longitude": 139.78696,
+  "elevationFt": 35,
+  "featured": true,
+  "runways": [
+   {
+    "ident": "16L",
+    "lengthFt": 11024,
+    "headingDeg": 150,
+    "surface": "ASP"
+   },
+   {
+    "ident": "16R",
+    "lengthFt": 9843,
+    "headingDeg": 150,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "RJAA",
+  "iata": "NRT",
+  "name": "Narita International Airport",
+  "city": "Narita",
+  "country": "JP",
+  "latitude": 35.76858,
+  "longitude": 140.38871,
+  "elevationFt": 141,
+  "featured": true,
+  "runways": [
+   {
+    "ident": "16R",
+    "lengthFt": 13123,
+    "headingDeg": 150,
+    "surface": "ASP"
+   },
+   {
+    "ident": "16L",
+    "lengthFt": 8202,
+    "headingDeg": 150,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "RKSI",
+  "iata": "ICN",
+  "name": "Incheon International Airport",
+  "city": "Seoul",
+  "country": "KR",
+  "latitude": 37.4691,
+  "longitude": 126.451,
+  "elevationFt": 23,
+  "featured": true,
+  "runways": [
+   {
+    "ident": "16L",
+    "lengthFt": 13123,
+    "headingDeg": 145,
+    "surface": "ASPH"
+   },
+   {
+    "ident": "15L",
+    "lengthFt": 12303,
+    "headingDeg": 145,
+    "surface": "ASPH"
+   }
+  ]
+ },
+ {
+  "icao": "ZBAA",
+  "iata": "PEK",
+  "name": "Beijing Capital International Airport",
+  "city": "Beijing",
+  "country": "CN",
+  "latitude": 40.07735,
+  "longitude": 116.5967,
+  "elevationFt": 116,
+  "featured": true,
+  "runways": [
+   {
+    "ident": "18L",
+    "lengthFt": 12467,
+    "headingDeg": 173,
+    "surface": "ASP"
+   },
+   {
+    "ident": "18R",
+    "lengthFt": 10499,
+    "headingDeg": 173,
+    "surface": "PEM"
+   }
+  ]
+ },
+ {
+  "icao": "ZSPD",
+  "iata": "PVG",
+  "name": "Shanghai Pudong International Airport",
+  "city": "Shanghai (Pudong)",
+  "country": "CN",
+  "latitude": 31.1434,
+  "longitude": 121.805,
+  "elevationFt": 13,
+  "featured": true,
+  "runways": [
+   {
+    "ident": "17L",
+    "lengthFt": 13123,
+    "headingDeg": 162,
+    "surface": "CON"
+   },
+   {
+    "ident": "16L",
+    "lengthFt": 12467,
+    "headingDeg": 162,
+    "surface": "CON"
+   }
+  ]
+ },
+ {
+  "icao": "VABB",
+  "iata": "BOM",
+  "name": "Chhatrapati Shivaji Maharaj International Airport",
+  "city": "Mumbai",
+  "country": "IN",
+  "latitude": 19.0887,
+  "longitude": 72.8679,
+  "elevationFt": 39,
+  "featured": true,
+  "runways": [
+   {
+    "ident": "09",
+    "lengthFt": 11511,
+    "headingDeg": 89,
+    "surface": "ASP"
+   },
+   {
+    "ident": "14",
+    "lengthFt": 9419,
+    "headingDeg": 134,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "VIDP",
+  "iata": "DEL",
+  "name": "Indira Gandhi International Airport",
+  "city": "New Delhi",
+  "country": "IN",
+  "latitude": 28.55563,
+  "longitude": 77.09519,
+  "elevationFt": 777,
+  "featured": true,
+  "runways": [
+   {
+    "ident": "11R",
+    "lengthFt": 14534,
+    "headingDeg": 103,
+    "surface": "ASPH"
+   },
+   {
+    "ident": "11L",
+    "lengthFt": 13681,
+    "headingDeg": 103,
+    "surface": "ASPH"
+   }
+  ]
+ },
+ {
+  "icao": "YSSY",
+  "iata": "SYD",
+  "name": "Sydney Kingsford Smith International Airport",
+  "city": "Sydney (Mascot)",
+  "country": "AU",
+  "latitude": -33.9461,
+  "longitude": 151.177,
+  "elevationFt": 21,
+  "featured": true,
+  "runways": [
+   {
+    "ident": "16R",
+    "lengthFt": 12999,
+    "headingDeg": 168,
+    "surface": "ASP"
+   },
+   {
+    "ident": "07",
+    "lengthFt": 8300,
+    "headingDeg": 74,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "YMML",
+  "iata": "MEL",
+  "name": "Melbourne Airport",
+  "city": "Melbourne",
+  "country": "AU",
+  "latitude": -37.67073,
+  "longitude": 144.8379,
+  "elevationFt": 434,
+  "featured": true,
+  "runways": [
+   {
+    "ident": "16",
+    "lengthFt": 11998,
+    "headingDeg": 171,
+    "surface": "ASP"
+   },
+   {
+    "ident": "09",
+    "lengthFt": 7500,
+    "headingDeg": 94,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "NZAA",
+  "iata": "AKL",
+  "name": "Auckland International Airport",
+  "city": "Auckland",
+  "country": "NZ",
+  "latitude": -37.01199,
+  "longitude": 174.78633,
+  "elevationFt": 23,
+  "featured": true,
+  "runways": [
+   {
+    "ident": "05R",
+    "lengthFt": 11926,
+    "headingDeg": 72,
+    "surface": "CON"
+   }
+  ]
+ },
+ {
+  "icao": "FAOR",
+  "iata": "JNB",
+  "name": "O.R. Tambo International Airport",
+  "city": "Johannesburg",
+  "country": "ZA",
+  "latitude": -26.14008,
+  "longitude": 28.2468,
+  "elevationFt": 5558,
+  "featured": true,
+  "runways": [
+   {
+    "ident": "03L",
+    "lengthFt": 14495,
+    "headingDeg": 14,
+    "surface": "ASP"
+   },
+   {
+    "ident": "03R",
+    "lengthFt": 11155,
+    "headingDeg": 14,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "HECA",
+  "iata": "CAI",
+  "name": "Cairo International Airport",
+  "city": "Cairo",
+  "country": "EG",
+  "latitude": 30.11153,
+  "longitude": 31.39669,
+  "elevationFt": 322,
+  "featured": true,
+  "runways": [
+   {
+    "ident": "05R",
+    "lengthFt": 13124,
+    "headingDeg": 49,
+    "surface": "Asphalt"
+   },
+   {
+    "ident": "05C",
+    "lengthFt": 13123,
+    "headingDeg": 45,
+    "surface": "Asphalt"
+   }
+  ]
+ },
+ {
+  "icao": "LLBG",
+  "iata": "TLV",
+  "name": "Ben Gurion International Airport",
+  "city": "Tel Aviv",
+  "country": "IL",
+  "latitude": 32.0114,
+  "longitude": 34.8867,
+  "elevationFt": 135,
+  "featured": true,
+  "runways": [
+   {
+    "ident": "08",
+    "lengthFt": 13327,
+    "headingDeg": 80,
+    "surface": "ASP"
+   },
+   {
+    "ident": "12",
+    "lengthFt": 10209,
+    "headingDeg": 121,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "OMAA",
+  "iata": "AUH",
+  "name": "Zayed International Airport",
+  "city": "Abu Dhabi",
+  "country": "AE",
+  "latitude": 24.44097,
+  "longitude": 54.64924,
+  "elevationFt": 88,
+  "featured": true,
+  "runways": [
+   {
+    "ident": "13R",
+    "lengthFt": 13471,
+    "headingDeg": 128,
+    "surface": "ASP"
+   },
+   {
+    "ident": "13L",
+    "lengthFt": 13451,
+    "headingDeg": 128,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "VOBL",
+  "iata": "BLR",
+  "name": "Kempegowda International Airport Bengaluru",
+  "city": "Bengaluru",
+  "country": "IN",
+  "latitude": 13.1979,
+  "longitude": 77.7063,
+  "elevationFt": 3000,
+  "featured": true,
+  "runways": [
+   {
+    "ident": "09L",
+    "lengthFt": 13123,
+    "headingDeg": 0,
+    "surface": "ASP"
+   },
+   {
+    "ident": "09R",
+    "lengthFt": 13123,
+    "headingDeg": 92,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "WMKK",
+  "iata": "KUL",
+  "name": "Kuala Lumpur International Airport",
+  "city": "Sepang",
+  "country": "MY",
+  "latitude": 2.74558,
+  "longitude": 101.71,
+  "elevationFt": 69,
+  "featured": true,
+  "runways": [
+   {
+    "ident": "14L",
+    "lengthFt": 13530,
+    "headingDeg": 146,
+    "surface": "PEM"
+   },
+   {
+    "ident": "14R",
+    "lengthFt": 13288,
+    "headingDeg": 146,
+    "surface": "PEM"
+   }
+  ]
+ },
+ {
+  "icao": "VTBS",
+  "iata": "BKK",
+  "name": "Suvarnabhumi Airport",
+  "city": "Bangkok",
+  "country": "TH",
+  "latitude": 13.6811,
+  "longitude": 100.747,
+  "elevationFt": 5,
+  "featured": true,
+  "runways": [
+   {
+    "ident": "01",
+    "lengthFt": 13123,
+    "headingDeg": 14,
+    "surface": "ASP"
+   },
+   {
+    "ident": "02L",
+    "lengthFt": 13123,
+    "headingDeg": 14,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "RPLL",
+  "iata": "MNL",
+  "name": "Ninoy Aquino International Airport",
+  "city": "Manila (Pasay)",
+  "country": "PH",
+  "latitude": 14.5086,
+  "longitude": 121.02,
+  "elevationFt": 75,
+  "featured": true,
+  "runways": [
+   {
+    "ident": "06",
+    "lengthFt": 12261,
+    "headingDeg": 60,
+    "surface": "CON"
+   },
+   {
+    "ident": "13",
+    "lengthFt": 7408,
+    "headingDeg": 135,
+    "surface": "CON"
+   }
+  ]
+ },
+ {
+  "icao": "VVTS",
+  "iata": "SGN",
+  "name": "Tan Son Nhat International Airport",
+  "city": "Ho Chi Minh City",
+  "country": "VN",
+  "latitude": 10.8188,
+  "longitude": 106.652,
+  "elevationFt": 33,
+  "featured": true,
+  "runways": [
+   {
+    "ident": "07R",
+    "lengthFt": 12468,
+    "headingDeg": 69,
+    "surface": "CON"
+   },
+   {
+    "ident": "07L",
+    "lengthFt": 10007,
+    "headingDeg": 69,
+    "surface": "CON"
+   }
+  ]
+ },
+ {
+  "icao": "AGGH",
+  "iata": "HIR",
+  "name": "Honiara International Airport",
+  "city": "Honiara",
+  "country": "SB",
+  "latitude": -9.428,
+  "longitude": 160.05499,
+  "elevationFt": 28,
+  "featured": false,
+  "runways": [
+   {
+    "ident": "06",
+    "lengthFt": 7218,
+    "headingDeg": 68,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "AYNZ",
+  "iata": "LAE",
+  "name": "Nadzab Tomodachi International Airport",
+  "city": "Lae",
+  "country": "PG",
+  "latitude": -6.56799,
+  "longitude": 146.72654,
+  "elevationFt": 239,
+  "featured": false,
+  "runways": [
+   {
+    "ident": "09",
+    "lengthFt": 8000,
+    "headingDeg": 95,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "AYPY",
+  "iata": "POM",
+  "name": "Port Moresby Jacksons International Airport",
+  "city": "Port Moresby",
+  "country": "PG",
+  "latitude": -9.44338,
+  "longitude": 147.22,
+  "elevationFt": 146,
+  "featured": false,
+  "runways": [
+   {
+    "ident": "14L",
+    "lengthFt": 9022,
+    "headingDeg": 148,
+    "surface": "ASP"
+   },
+   {
+    "ident": "14R",
+    "lengthFt": 4625,
+    "headingDeg": 142,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "BGGH",
+  "iata": "GOH",
+  "name": "Nuuk International Airport",
+  "city": "Nuuk",
+  "country": "GL",
+  "latitude": 64.19107,
+  "longitude": -51.67914,
+  "elevationFt": 283,
+  "featured": false,
+  "runways": [
+   {
+    "ident": "04",
+    "lengthFt": 7217,
+    "headingDeg": 0,
+    "surface": "ASPH"
+   }
+  ]
+ },
+ {
+  "icao": "BGJN",
+  "iata": "JAV",
+  "name": "Ilulissat Airport",
+  "city": "Ilulissat",
+  "country": "GL",
+  "latitude": 69.24564,
+  "longitude": -51.05224,
+  "elevationFt": 95,
+  "featured": false,
+  "runways": [
+   {
+    "ident": "06",
+    "lengthFt": 2772,
+    "headingDeg": 0,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "BIAR",
+  "iata": "AEY",
+  "name": "Akureyri International Airport",
+  "city": "Akureyri",
+  "country": "IS",
+  "latitude": 65.65657,
+  "longitude": -18.07202,
+  "elevationFt": 6,
+  "featured": false,
+  "runways": [
+   {
+    "ident": "01",
+    "lengthFt": 8858,
+    "headingDeg": 356,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "BIKF",
+  "iata": "KEF",
+  "name": "Keflavik International Airport",
+  "city": "Reykjavík",
+  "country": "IS",
+  "latitude": 63.985,
+  "longitude": -22.6056,
+  "elevationFt": 171,
+  "featured": false,
+  "runways": [
+   {
+    "ident": "10",
+    "lengthFt": 10056,
+    "headingDeg": 104,
+    "surface": "ASP"
+   },
+   {
+    "ident": "01",
+    "lengthFt": 10020,
+    "headingDeg": 14,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "BKPR",
+  "iata": "PRN",
+  "name": "Priština Adem Jashari International Airport",
+  "city": "Prishtina",
+  "country": "XK",
+  "latitude": 42.5728,
+  "longitude": 21.0358,
+  "elevationFt": 1789,
+  "featured": false,
+  "runways": [
+   {
+    "ident": "17",
+    "lengthFt": 9974,
+    "headingDeg": 176,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "CYEG",
+  "iata": "YEG",
+  "name": "Edmonton International Airport",
+  "city": "Edmonton",
+  "country": "CA",
+  "latitude": 53.3097,
+  "longitude": -113.58,
+  "elevationFt": 2373,
+  "featured": false,
+  "runways": [
+   {
+    "ident": "02",
+    "lengthFt": 11000,
+    "headingDeg": 34,
+    "surface": "ASP"
+   },
+   {
+    "ident": "12",
+    "lengthFt": 10200,
+    "headingDeg": 135,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "CYHM",
+  "iata": "YHM",
+  "name": "John C. Munro Hamilton International Airport",
+  "city": "Hamilton",
+  "country": "CA",
+  "latitude": 43.17131,
+  "longitude": -79.92942,
+  "elevationFt": 780,
+  "featured": false,
+  "runways": [
+   {
+    "ident": "12",
+    "lengthFt": 10006,
+    "headingDeg": 107,
+    "surface": "ASP"
+   },
+   {
+    "ident": "06",
+    "lengthFt": 6010,
+    "headingDeg": 49,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "CYHZ",
+  "iata": "YHZ",
+  "name": "Halifax / Stanfield International Airport",
+  "city": "Halifax",
+  "country": "CA",
+  "latitude": 44.8808,
+  "longitude": -63.5086,
+  "elevationFt": 477,
+  "featured": false,
+  "runways": [
+   {
+    "ident": "05",
+    "lengthFt": 10500,
+    "headingDeg": 35,
+    "surface": "ASP"
+   },
+   {
+    "ident": "14",
+    "lengthFt": 7700,
+    "headingDeg": 126,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "CYLW",
+  "iata": "YLW",
+  "name": "Kelowna International Airport",
+  "city": "Kelowna",
+  "country": "CA",
+  "latitude": 49.9561,
+  "longitude": -119.378,
+  "elevationFt": 1421,
+  "featured": false,
+  "runways": [
+   {
+    "ident": "16",
+    "lengthFt": 8900,
+    "headingDeg": 175,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "CYOW",
+  "iata": "YOW",
+  "name": "Ottawa Macdonald-Cartier International Airport",
+  "city": "Ottawa",
+  "country": "CA",
+  "latitude": 45.3225,
+  "longitude": -75.6692,
+  "elevationFt": 374,
+  "featured": false,
+  "runways": [
+   {
+    "ident": "14",
+    "lengthFt": 10000,
+    "headingDeg": 126,
+    "surface": "ASP"
+   },
+   {
+    "ident": "07",
+    "lengthFt": 8000,
+    "headingDeg": 57,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "CYQB",
+  "iata": "YQB",
+  "name": "Quebec Jean Lesage International Airport",
+  "city": "Quebec",
+  "country": "CA",
+  "latitude": 46.7911,
+  "longitude": -71.3933,
+  "elevationFt": 244,
+  "featured": false,
+  "runways": [
+   {
+    "ident": "06",
+    "lengthFt": 9000,
+    "headingDeg": 44,
+    "surface": "ASP"
+   },
+   {
+    "ident": "11",
+    "lengthFt": 5700,
+    "headingDeg": 98,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "CYQG",
+  "iata": "YQG",
+  "name": "Windsor International Airport",
+  "city": "Windsor",
+  "country": "CA",
+  "latitude": 42.2756,
+  "longitude": -82.9556,
+  "elevationFt": 622,
+  "featured": false,
+  "runways": [
+   {
+    "ident": "07",
+    "lengthFt": 9000,
+    "headingDeg": 62,
+    "surface": "ASP"
+   },
+   {
+    "ident": "12",
+    "lengthFt": 5150,
+    "headingDeg": 116,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "CYWG",
+  "iata": "YWG",
+  "name": "Winnipeg / James Armstrong Richardson International Airport",
+  "city": "Winnipeg",
+  "country": "CA",
+  "latitude": 49.91,
+  "longitude": -97.2399,
+  "elevationFt": 783,
+  "featured": false,
+  "runways": [
+   {
+    "ident": "18",
+    "lengthFt": 11000,
+    "headingDeg": 189,
+    "surface": "ASP"
+   },
+   {
+    "ident": "13",
+    "lengthFt": 8841,
+    "headingDeg": 137,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "CYXE",
+  "iata": "YXE",
+  "name": "Saskatoon John G. Diefenbaker International Airport",
+  "city": "Saskatoon",
+  "country": "CA",
+  "latitude": 52.17072,
+  "longitude": -106.70079,
+  "elevationFt": 1653,
+  "featured": false,
+  "runways": [
+   {
+    "ident": "09",
+    "lengthFt": 8300,
+    "headingDeg": 101,
+    "surface": "ASP"
+   },
+   {
+    "ident": "15",
+    "lengthFt": 6200,
+    "headingDeg": 165,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "CYYC",
+  "iata": "YYC",
+  "name": "Calgary International Airport",
+  "city": "Calgary",
+  "country": "CA",
+  "latitude": 51.11882,
+  "longitude": -114.00993,
+  "elevationFt": 3557,
+  "featured": false,
+  "runways": [
+   {
+    "ident": "17L",
+    "lengthFt": 14000,
+    "headingDeg": 180,
+    "surface": "CONC"
+   },
+   {
+    "ident": "17R",
+    "lengthFt": 12675,
+    "headingDeg": 180,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "CYYJ",
+  "iata": "YYJ",
+  "name": "Victoria International Airport",
+  "city": "Victoria",
+  "country": "CA",
+  "latitude": 48.6472,
+  "longitude": -123.42779,
+  "elevationFt": 63,
+  "featured": false,
+  "runways": [
+   {
+    "ident": "09",
+    "lengthFt": 7000,
+    "headingDeg": 105,
+    "surface": "ASP"
+   },
+   {
+    "ident": "03",
+    "lengthFt": 5027,
+    "headingDeg": 44,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "CYYT",
+  "iata": "YYT",
+  "name": "St. John's International Airport",
+  "city": "St. John's",
+  "country": "CA",
+  "latitude": 47.6186,
+  "longitude": -52.7519,
+  "elevationFt": 461,
+  "featured": false,
+  "runways": [
+   {
+    "ident": "10",
+    "lengthFt": 8502,
+    "headingDeg": 86,
+    "surface": "ASP"
+   },
+   {
+    "ident": "16",
+    "lengthFt": 7005,
+    "headingDeg": 142,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "DAAE",
+  "iata": "BJA",
+  "name": "Soummam–Abane Ramdane Airport",
+  "city": "Béjaïa",
+  "country": "DZ",
+  "latitude": 36.71255,
+  "longitude": 5.06991,
+  "elevationFt": 20,
+  "featured": false,
+  "runways": [
+   {
+    "ident": "08",
+    "lengthFt": 7874,
+    "headingDeg": 80,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "DAAG",
+  "iata": "ALG",
+  "name": "Houari Boumediene Airport",
+  "city": "Algiers",
+  "country": "DZ",
+  "latitude": 36.69389,
+  "longitude": 3.21453,
+  "elevationFt": 82,
+  "featured": false,
+  "runways": [
+   {
+    "ident": "05",
+    "lengthFt": 11483,
+    "headingDeg": 53,
+    "surface": "ASP"
+   },
+   {
+    "ident": "09",
+    "lengthFt": 11483,
+    "headingDeg": 92,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "DAAJ",
+  "iata": "DJG",
+  "name": "Tiska Djanet Airport",
+  "city": "Djanet",
+  "country": "DZ",
+  "latitude": 24.28545,
+  "longitude": 9.46365,
+  "elevationFt": 3176,
+  "featured": false,
+  "runways": [
+   {
+    "ident": "13",
+    "lengthFt": 9843,
+    "headingDeg": 125,
+    "surface": "ASP"
+   },
+   {
+    "ident": "02",
+    "lengthFt": 7874,
+    "headingDeg": 22,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "DAAT",
+  "iata": "TMR",
+  "name": "Aguenar – Hadj Bey Akhamok Airport",
+  "city": "Tamanrasset",
+  "country": "DZ",
+  "latitude": 22.81099,
+  "longitude": 5.45083,
+  "elevationFt": 4518,
+  "featured": false,
+  "runways": [
+   {
+    "ident": "02",
+    "lengthFt": 11811,
+    "headingDeg": 22,
+    "surface": "ASP"
+   },
+   {
+    "ident": "08",
+    "lengthFt": 10171,
+    "headingDeg": 82,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "DAAV",
+  "iata": "GJL",
+  "name": "Jijel Ferhat Abbas Airport",
+  "city": "Tahir",
+  "country": "DZ",
+  "latitude": 36.79413,
+  "longitude": 5.87365,
+  "elevationFt": 36,
+  "featured": false,
+  "runways": [
+   {
+    "ident": "17",
+    "lengthFt": 7874,
+    "headingDeg": 171,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "DABB",
+  "iata": "AAE",
+  "name": "Annaba Rabah Bitat Airport",
+  "city": "Annaba",
+  "country": "DZ",
+  "latitude": 36.82678,
+  "longitude": 7.81334,
+  "elevationFt": 16,
+  "featured": false,
+  "runways": [
+   {
+    "ident": "18",
+    "lengthFt": 9843,
+    "headingDeg": 187,
+    "surface": "ASP"
+   },
+   {
+    "ident": "05",
+    "lengthFt": 7513,
+    "headingDeg": 52,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "DABC",
+  "iata": "CZL",
+  "name": "Mohamed Boudiaf International Airport",
+  "city": "Constantine",
+  "country": "DZ",
+  "latitude": 36.276,
+  "longitude": 6.62039,
+  "elevationFt": 2265,
+  "featured": false,
+  "runways": [
+   {
+    "ident": "16",
+    "lengthFt": 9843,
+    "headingDeg": 159,
+    "surface": "ASP"
+   },
+   {
+    "ident": "13",
+    "lengthFt": 7874,
+    "headingDeg": 136,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "DABT",
+  "iata": "BLJ",
+  "name": "Batna Mostefa Ben Boulaid Airport",
+  "city": "Batna",
+  "country": "DZ",
+  "latitude": 35.7521,
+  "longitude": 6.30859,
+  "elevationFt": 2697,
+  "featured": false,
+  "runways": [
+   {
+    "ident": "05",
+    "lengthFt": 9843,
+    "headingDeg": 55,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "DAOI",
+  "iata": "CFK",
+  "name": "Chlef Aboubakr Belkaid International Airport",
+  "city": "Chlef",
+  "country": "DZ",
+  "latitude": 36.21661,
+  "longitude": 1.34111,
+  "elevationFt": 463,
+  "featured": false,
+  "runways": [
+   {
+    "ident": "08",
+    "lengthFt": 8793,
+    "headingDeg": 0,
+    "surface": "ASPH"
+   },
+   {
+    "ident": "07",
+    "lengthFt": 5413,
+    "headingDeg": 66,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "DAON",
+  "iata": "TLM",
+  "name": "Zenata – Messali El Hadj Airport",
+  "city": "Zenata",
+  "country": "DZ",
+  "latitude": 35.01273,
+  "longitude": -1.45712,
+  "elevationFt": 814,
+  "featured": false,
+  "runways": [
+   {
+    "ident": "07",
+    "lengthFt": 8530,
+    "headingDeg": 70,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "DAOO",
+  "iata": "ORN",
+  "name": "Oran Es-Sénia (Ahmed Ben Bella) International Airport",
+  "city": "Es-Sénia",
+  "country": "DZ",
+  "latitude": 35.62065,
+  "longitude": -0.62249,
+  "elevationFt": 295,
+  "featured": false,
+  "runways": [
+   {
+    "ident": "07L",
+    "lengthFt": 11811,
+    "headingDeg": 67,
+    "surface": "ASP"
+   },
+   {
+    "ident": "07R",
+    "lengthFt": 9843,
+    "headingDeg": 0,
+    "surface": "CON"
+   }
+  ]
+ },
+ {
+  "icao": "DAUB",
+  "iata": "BSK",
+  "name": "Biskra - Mohamed Khider Airport",
+  "city": "Biskra",
+  "country": "DZ",
+  "latitude": 34.79318,
+  "longitude": 5.7389,
+  "elevationFt": 289,
+  "featured": false,
+  "runways": [
+   {
+    "ident": "13",
+    "lengthFt": 9469,
+    "headingDeg": 130,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "DBBB",
+  "iata": "COO",
+  "name": "Cotonou Cadjehoun International Airport",
+  "city": "Cotonou",
+  "country": "BJ",
+  "latitude": 6.35723,
+  "longitude": 2.38435,
+  "elevationFt": 19,
+  "featured": false,
+  "runways": [
+   {
+    "ident": "06",
+    "lengthFt": 7906,
+    "headingDeg": 53,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "DFFD",
+  "iata": "OUA",
+  "name": "Ouagadougou Thomas Sankara International Airport",
+  "city": "Ouagadougou",
+  "country": "BF",
+  "latitude": 12.3532,
+  "longitude": -1.51242,
+  "elevationFt": 1037,
+  "featured": false,
+  "runways": [
+   {
+    "ident": "04",
+    "lengthFt": 9843,
+    "headingDeg": 33,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "DFOO",
+  "iata": "BOY",
+  "name": "Bobo Dioulasso Airport",
+  "city": "Bobo Dioulasso",
+  "country": "BF",
+  "latitude": 11.1601,
+  "longitude": -4.33097,
+  "elevationFt": 1511,
+  "featured": false,
+  "runways": [
+   {
+    "ident": "06",
+    "lengthFt": 10826,
+    "headingDeg": 53,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "DGAA",
+  "iata": "ACC",
+  "name": "Kotoka International Airport",
+  "city": "Accra",
+  "country": "GH",
+  "latitude": 5.60519,
+  "longitude": -0.16679,
+  "elevationFt": 205,
+  "featured": false,
+  "runways": [
+   {
+    "ident": "03",
+    "lengthFt": 11165,
+    "headingDeg": 22,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "DGLE",
+  "iata": "TML",
+  "name": "Yakubu Tali International Airport",
+  "city": "Tamale",
+  "country": "GH",
+  "latitude": 9.55391,
+  "longitude": -0.86606,
+  "elevationFt": 553,
+  "featured": false,
+  "runways": [
+   {
+    "ident": "05",
+    "lengthFt": 7999,
+    "headingDeg": 45,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "DGSI",
+  "iata": "KMS",
+  "name": "Prempeh I International Airport",
+  "city": "Kumasi",
+  "country": "GH",
+  "latitude": 6.71456,
+  "longitude": -1.59082,
+  "elevationFt": 942,
+  "featured": false,
+  "runways": [
+   {
+    "ident": "02",
+    "lengthFt": 7612,
+    "headingDeg": 12,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "DIAP",
+  "iata": "ABJ",
+  "name": "Félix-Houphouët-Boigny International Airport",
+  "city": "Abidjan",
+  "country": "CI",
+  "latitude": 5.26139,
+  "longitude": -3.92629,
+  "elevationFt": 21,
+  "featured": false,
+  "runways": [
+   {
+    "ident": "03",
+    "lengthFt": 9843,
+    "headingDeg": 23,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "DNAA",
+  "iata": "ABV",
+  "name": "Nnamdi Azikiwe International Airport",
+  "city": "Abuja",
+  "country": "NG",
+  "latitude": 9.00679,
+  "longitude": 7.26317,
+  "elevationFt": 1123,
+  "featured": false,
+  "runways": [
+   {
+    "ident": "04",
+    "lengthFt": 11842,
+    "headingDeg": 35,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "DNAS",
+  "iata": "ABB",
+  "name": "Asaba International Airport",
+  "city": "Asaba",
+  "country": "NG",
+  "latitude": 6.20417,
+  "longitude": 6.66528,
+  "elevationFt": 305,
+  "featured": false,
+  "runways": [
+   {
+    "ident": "11",
+    "lengthFt": 11155,
+    "headingDeg": 0,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "DNBC",
+  "iata": "BCU",
+  "name": "Sir Abubakar Tafawa Balewa Bauchi State International Airport",
+  "city": "Bauchi",
+  "country": "NG",
+  "latitude": 10.48283,
+  "longitude": 9.744,
+  "elevationFt": 1965,
+  "featured": false,
+  "runways": [
+   {
+    "ident": "17",
+    "lengthFt": 11154,
+    "headingDeg": 0,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "DNEN",
+  "iata": "ENU",
+  "name": "Akanu Ibiam International Airport",
+  "city": "Enegu",
+  "country": "NG",
+  "latitude": 6.47372,
+  "longitude": 7.56046,
+  "elevationFt": 466,
+  "featured": false,
+  "runways": [
+   {
+    "ident": "08",
+    "lengthFt": 7879,
+    "headingDeg": 80,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "DNIL",
+  "iata": "ILR",
+  "name": "General Tunde Idiagbon International Airport",
+  "city": "Ilorin/Ogbomosho",
+  "country": "NG",
+  "latitude": 8.44021,
+  "longitude": 4.49392,
+  "elevationFt": 1126,
+  "featured": false,
+  "runways": [
+   {
+    "ident": "05",
+    "lengthFt": 10169,
+    "headingDeg": 49,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "DNKA",
+  "iata": "KAD",
+  "name": "Kaduna International Airport",
+  "city": "Kaduna",
+  "country": "NG",
+  "latitude": 10.696,
+  "longitude": 7.32011,
+  "elevationFt": 2073,
+  "featured": false,
+  "runways": [
+   {
+    "ident": "05",
+    "lengthFt": 9843,
+    "headingDeg": 50,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "DNKN",
+  "iata": "KAN",
+  "name": "Mallam Aminu Kano International Airport",
+  "city": "Kano",
+  "country": "NG",
+  "latitude": 12.04561,
+  "longitude": 8.52357,
+  "elevationFt": 1562,
+  "featured": false,
+  "runways": [
+   {
+    "ident": "06",
+    "lengthFt": 10831,
+    "headingDeg": 61,
+    "surface": "ASP"
+   },
+   {
+    "ident": "05",
+    "lengthFt": 8040,
+    "headingDeg": 44,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "DNMA",
+  "iata": "MIU",
+  "name": "Maiduguri International Airport",
+  "city": "Maiduguri",
+  "country": "NG",
+  "latitude": 11.85416,
+  "longitude": 13.0807,
+  "elevationFt": 1099,
+  "featured": false,
+  "runways": [
+   {
+    "ident": "05",
+    "lengthFt": 9846,
+    "headingDeg": 47,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "DNMM",
+  "iata": "LOS",
+  "name": "Murtala Muhammed International Airport",
+  "city": "Lagos",
+  "country": "NG",
+  "latitude": 6.57737,
+  "longitude": 3.32116,
+  "elevationFt": 135,
+  "featured": false,
+  "runways": [
+   {
+    "ident": "18R",
+    "lengthFt": 12794,
+    "headingDeg": 180,
+    "surface": "ASP"
+   },
+   {
+    "ident": "18L",
+    "lengthFt": 8997,
+    "headingDeg": 180,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "DNPO",
+  "iata": "PHC",
+  "name": "Port Harcourt International Airport",
+  "city": "Port Harcourt",
+  "country": "NG",
+  "latitude": 5.01549,
+  "longitude": 6.94959,
+  "elevationFt": 87,
+  "featured": false,
+  "runways": [
+   {
+    "ident": "03",
+    "lengthFt": 9843,
+    "headingDeg": 28,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "DNSO",
+  "iata": "SKO",
+  "name": "Sadiq Abubakar III International Airport",
+  "city": "Sokoto",
+  "country": "NG",
+  "latitude": 12.91573,
+  "longitude": 5.20755,
+  "elevationFt": 1010,
+  "featured": false,
+  "runways": [
+   {
+    "ident": "08",
+    "lengthFt": 9844,
+    "headingDeg": 77,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "DRRN",
+  "iata": "NIM",
+  "name": "Diori Hamani International Airport",
+  "city": "Niamey",
+  "country": "NE",
+  "latitude": 13.4815,
+  "longitude": 2.18361,
+  "elevationFt": 732,
+  "featured": false,
+  "runways": [
+   {
+    "ident": "09L",
+    "lengthFt": 10499,
+    "headingDeg": 87,
+    "surface": "LAT"
+   },
+   {
+    "ident": "09R",
+    "lengthFt": 9843,
+    "headingDeg": 87,
+    "surface": "BITUM"
+   }
+  ]
+ },
+ {
+  "icao": "DTTA",
+  "iata": "TUN",
+  "name": "Tunis Carthage International Airport",
+  "city": "Tunis",
+  "country": "TN",
+  "latitude": 36.851,
+  "longitude": 10.2272,
+  "elevationFt": 22,
+  "featured": false,
+  "runways": [
+   {
+    "ident": "01",
+    "lengthFt": 10499,
+    "headingDeg": 12,
+    "surface": "ASP"
+   },
+   {
+    "ident": "11",
+    "lengthFt": 9318,
+    "headingDeg": 112,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "DTTJ",
+  "iata": "DJE",
+  "name": "Djerba Zarzis International Airport",
+  "city": "Mellita",
+  "country": "TN",
+  "latitude": 33.87372,
+  "longitude": 10.7773,
+  "elevationFt": 19,
+  "featured": false,
+  "runways": [
+   {
+    "ident": "09",
+    "lengthFt": 10171,
+    "headingDeg": 88,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "DXXX",
+  "iata": "LFW",
+  "name": "Lomé–Tokoin International Airport",
+  "city": "Lomé",
+  "country": "TG",
+  "latitude": 6.16561,
+  "longitude": 1.25451,
+  "elevationFt": 72,
+  "featured": false,
+  "runways": [
+   {
+    "ident": "04",
+    "lengthFt": 9847,
+    "headingDeg": 39,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "EBBR",
+  "iata": "BRU",
+  "name": "Brussels Airport",
+  "city": "Zaventem",
+  "country": "BE",
+  "latitude": 50.9014,
+  "longitude": 4.48444,
+  "elevationFt": 175,
+  "featured": false,
+  "runways": [
+   {
+    "ident": "07L",
+    "lengthFt": 11936,
+    "headingDeg": 65,
+    "surface": "ASP"
+   },
+   {
+    "ident": "07R",
+    "lengthFt": 10535,
+    "headingDeg": 70,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "EBCI",
+  "iata": "CRL",
+  "name": "Brussels South Charleroi Airport",
+  "city": "Charleroi",
+  "country": "BE",
+  "latitude": 50.46196,
+  "longitude": 4.45956,
+  "elevationFt": 614,
+  "featured": false,
+  "runways": [
+   {
+    "ident": "06",
+    "lengthFt": 10023,
+    "headingDeg": 66,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "EBOS",
+  "iata": "OST",
+  "name": "Ostend-Bruges International Airport",
+  "city": "Oostende",
+  "country": "BE",
+  "latitude": 51.1998,
+  "longitude": 2.87467,
+  "elevationFt": 13,
+  "featured": false,
+  "runways": [
+   {
+    "ident": "08",
+    "lengthFt": 10499,
+    "headingDeg": 75,
+    "surface": "CON"
+   }
+  ]
+ },
+ {
+  "icao": "EDDB",
+  "iata": "BER",
+  "name": "Berlin Brandenburg Airport",
+  "city": "Berlin",
+  "country": "DE",
+  "latitude": 52.36174,
+  "longitude": 13.50234,
+  "elevationFt": 157,
+  "featured": false,
+  "runways": [
+   {
+    "ident": "06L",
+    "lengthFt": 11811,
+    "headingDeg": 69,
+    "surface": "ASPH"
+   },
+   {
+    "ident": "06R",
+    "lengthFt": 13123,
+    "headingDeg": 69,
+    "surface": "concrete"
+   }
+  ]
+ },
+ {
+  "icao": "EDDC",
+  "iata": "DRS",
+  "name": "Dresden Airport",
+  "city": "Dresden",
+  "country": "DE",
+  "latitude": 51.13412,
+  "longitude": 13.76783,
+  "elevationFt": 755,
+  "featured": false,
+  "runways": [
+   {
+    "ident": "04",
+    "lengthFt": 9350,
+    "headingDeg": 41,
+    "surface": "CON"
+   }
+  ]
+ },
+ {
+  "icao": "EDDE",
+  "iata": "ERF",
+  "name": "Erfurt-Weimar Airport",
+  "city": "Erfurt",
+  "country": "DE",
+  "latitude": 50.97828,
+  "longitude": 10.96071,
+  "elevationFt": 1036,
+  "featured": false,
+  "runways": [
+   {
+    "ident": "09",
+    "lengthFt": 8530,
+    "headingDeg": 98,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "EDDG",
+  "iata": "FMO",
+  "name": "Münster Osnabrück Airport",
+  "city": "Greven",
+  "country": "DE",
+  "latitude": 52.13382,
+  "longitude": 7.68848,
+  "elevationFt": 160,
+  "featured": false,
+  "runways": [
+   {
+    "ident": "07",
+    "lengthFt": 7119,
+    "headingDeg": 71,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "EDDH",
+  "iata": "HAM",
+  "name": "Hamburg Helmut Schmidt Airport",
+  "city": "Hamburg",
+  "country": "DE",
+  "latitude": 53.6304,
+  "longitude": 9.98823,
+  "elevationFt": 53,
+  "featured": false,
+  "runways": [
+   {
+    "ident": "15",
+    "lengthFt": 12028,
+    "headingDeg": 153,
+    "surface": "ASP"
+   },
+   {
+    "ident": "05",
+    "lengthFt": 10663,
+    "headingDeg": 50,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "EDDK",
+  "iata": "CGN",
+  "name": "Cologne Bonn Airport",
+  "city": "Köln (Cologne)",
+  "country": "DE",
+  "latitude": 50.8659,
+  "longitude": 7.14274,
+  "elevationFt": 302,
+  "featured": false,
+  "runways": [
+   {
+    "ident": "13L",
+    "lengthFt": 12516,
+    "headingDeg": 138,
+    "surface": "ASP"
+   },
+   {
+    "ident": "13R",
+    "lengthFt": 6112,
+    "headingDeg": 138,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "EDDL",
+  "iata": "DUS",
+  "name": "Düsseldorf Airport",
+  "city": "Düsseldorf",
+  "country": "DE",
+  "latitude": 51.2895,
+  "longitude": 6.76678,
+  "elevationFt": 147,
+  "featured": false,
+  "runways": [
+   {
+    "ident": "05R",
+    "lengthFt": 9842,
+    "headingDeg": 53,
+    "surface": "CON"
+   },
+   {
+    "ident": "05L",
+    "lengthFt": 8858,
+    "headingDeg": 53,
+    "surface": "CON"
+   }
+  ]
+ },
+ {
+  "icao": "EDDM",
+  "iata": "MUC",
+  "name": "Munich Airport",
+  "city": "Munich",
+  "country": "DE",
+  "latitude": 48.3538,
+  "longitude": 11.7861,
+  "elevationFt": 1487,
+  "featured": false,
+  "runways": [
+   {
+    "ident": "08L",
+    "lengthFt": 13123,
+    "headingDeg": 83,
+    "surface": "CON"
+   },
+   {
+    "ident": "08R",
+    "lengthFt": 13123,
+    "headingDeg": 83,
+    "surface": "CON"
+   }
+  ]
+ },
+ {
+  "icao": "EDDN",
+  "iata": "NUE",
+  "name": "Nuremberg Airport",
+  "city": "Nuremberg",
+  "country": "DE",
+  "latitude": 49.4987,
+  "longitude": 11.07806,
+  "elevationFt": 1046,
+  "featured": false,
+  "runways": [
+   {
+    "ident": "10",
+    "lengthFt": 8858,
+    "headingDeg": 99,
+    "surface": "ASP"
+   }
+  ]
+ },
+ {
+  "icao": "EDDP",
+  "iata": "LEJ",
+  "name": "Leipzig/Halle Airport",
+  "city": "Schkeuditz",
+  "country": "DE",
+  "latitude": 51.42066,
+  "longitude": 12.2327,
+  "elevationFt": 465,
+  "featured": false,
+  "runways": [
+   {
+    "ident": "08L",
+    "lengthFt": 11811,
+    "headingDeg": 86,
+    "surface": "CON"
+   },
+   {
+    "ident": "08R",
+    "lengthFt": 11811,
+    "headingDeg": 86,
+    "surface": "CON"
+   }
+  ]
+ },
+ {
+  "icao": "EDDS",
+  "iata": "STR",
+  "name": "Stuttgart Airport",
+  "city": "Stuttgart",
+  "country": "DE",
+  "latitude": 48.6899,
+  "longitude": 9.22196,
+  "elevationFt": 1276,
+  "featured": false,
+  "runways": [
+   {
+    "ident": "07",
+    "lengthFt": 10974,
+    "headingDeg": 72,
+    "surface": "CON"
+   }
+  ]
+ }
+]

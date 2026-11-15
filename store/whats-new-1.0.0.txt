@@ -1,0 +1,8 @@
+What's New in 1.0.0
+
+- Take the controls: fly 8 free aircraft from 140 real airports, with real flight physics — throttle, pitch, roll, flaps, gear, and wind.
+- 27 aircraft in the catalog, from the Cessna 172 to the 747, A380, and Concorde.
+- Pro unlocks the whole fleet and every airport.
+- Your flights save to a flight log, ready for the companion Flight Journal pilot-logbook app.
+
+Questions or concerns? Email us at contact@beatrackfam.info
