@@ -2,10 +2,9 @@ import StoreKit
 import SwiftUI
 
 // MARK: - App Store ID
-// TODO: fill in once the App Store Connect app record exists for the final
-// bundle ID. There is no ASC record yet, so no ID exists to fill in; the
-// TestFlight upload fails until Joey creates the record. Do NOT guess one.
-private let appStoreID = "TODO_FILL_IN_AFTER_ASC_RECORD_EXISTS"
+// App Store Connect record for HorizonFS: Apple ID 6835243270
+// (created Nov 15, 2026; build 1002 uploaded the same night).
+private let appStoreID = "6835243270"
 
 // MARK: - View
 
