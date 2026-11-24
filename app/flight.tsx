@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useRef, useState, type MutableRefObject } from 'react';
 import { Pressable, StyleSheet, Text, View } from 'react-native';
-import { useLocalSearchParams, useRouter } from 'expo-router';
+import { useFocusEffect, useLocalSearchParams, useRouter } from 'expo-router';
 import { FlightScene } from '../components/FlightScene';
 import { FlightControls } from '../components/FlightControls';
 import { Hud } from '../components/Hud';
@@ -68,6 +68,21 @@ export default function FlightScreen() {
   // steps it every frame). Reset whenever the flight setup changes.
   const stateRef = useRef<FlightState | null>(null);
   const setupKey = setup ? `${setup.aircraft.id}-${setup.airport.icao}-${setup.runway.ident}` : '';
+
+  // The 3D view (expo-gl GLView) must NOT mount while the push transition is
+  // still running: its layoutSubviews() touches the GL context before it is
+  // ready and traps natively (expo/expo#42520), killing the app before the
+  // first frame. Mount it only once this screen is focused and settled.
+  const [sceneReady, setSceneReady] = useState(false);
+  useFocusEffect(
+    useCallback(() => {
+      const timer = setTimeout(() => setSceneReady(true), 400);
+      return () => {
+        clearTimeout(timer);
+        setSceneReady(false);
+      };
+    }, []),
+  );
 
   useEffect(() => {
     if (setup) {
@@ -142,15 +157,19 @@ export default function FlightScreen() {
 
   return (
     <View style={styles.container}>
-      <FlightScene
-        key={setupKey}
-        setup={setup}
-        controlsRef={controlsRef}
-        paused={paused || finished !== null}
-        stateRef={stateRef as MutableRefObject<FlightState>}
-        onHud={onHud}
-        onEvent={onEvent}
-      />
+      {sceneReady ? (
+        <FlightScene
+          key={setupKey}
+          setup={setup}
+          controlsRef={controlsRef}
+          paused={paused || finished !== null}
+          stateRef={stateRef as MutableRefObject<FlightState>}
+          onHud={onHud}
+          onEvent={onEvent}
+        />
+      ) : (
+        <View style={styles.container} />
+      )}
       <Hud hud={hud} throttle={controlsRef.current.throttle} flaps={flaps} gearDown={gearDown} />
 
       <View style={styles.topBar}>
