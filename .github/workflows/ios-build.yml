@@ -13,10 +13,10 @@ name: Build iOS IPA (HorizonFS)
 #      plus the distribution certificate secrets:
 #        IOS_DISTRIBUTION_P12, IOS_DISTRIBUTION_PASSWORD
 #   3. APP CLIP (bundle ID com.beatrackfaminc.horizonfs.HorizonFS — the App ID does NOT exist
-#      yet): create it in the Developer portal ("HorizonFS App Clip"; do
+#      yet): create it in the Developer portal ("HorizonFS - Mobile Flight Simulator App Clip"; do
 #      not create another one once it exists), plus the App ID for the
-#      main app, and provisioning profiles named exactly "HorizonFS App"
-#      and "HorizonFS App Clip" (App Store distribution, including the Nov 6
+#      main app, and provisioning profiles named exactly "HorizonFS - Mobile Flight Simulator"
+#      and "HorizonFS - Mobile Flight Simulator App Clip" (App Store distribution, including the Nov 6
 #      Apple Distribution certificate). Until those profiles exist, the
 #      archive step fails on signing. The plugin
 #      (plugins/with-app-clip.js) sets both profiles per-target in the
@@ -169,8 +169,8 @@ jobs:
         # com.beatrackfaminc.horizonfs.HorizonFS) is built and embedded by this
         # same archive: plugins/with-app-clip.js adds it as a dependency of
         # the main target plus an "Embed App Clips" phase, and sets the
-        # per-target provisioning profiles in the project ("HorizonFS App"
-        # for the main app, "HorizonFS App Clip" for the clip). Do NOT add a
+        # per-target provisioning profiles in the project ("HorizonFS - Mobile Flight Simulator"
+        # for the main app, "HorizonFS - Mobile Flight Simulator App Clip" for the clip). Do NOT add a
         # PROVISIONING_PROFILE_SPECIFIER here — a command-line value would
         # override both targets with one profile and break the clip.
         timeout-minutes: 50
@@ -222,9 +222,9 @@ jobs:
             <key>provisioningProfiles</key>
             <dict>
               <key>com.beatrackfaminc.horizonfs</key>
-              <string>HorizonFS App</string>
+              <string>HorizonFS - Mobile Flight Simulator</string>
               <key>com.beatrackfaminc.horizonfs.HorizonFS</key>
-              <string>HorizonFS App Clip</string>
+              <string>HorizonFS - Mobile Flight Simulator App Clip</string>
             </dict>
           </dict>
           </plist>

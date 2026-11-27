@@ -8,7 +8,7 @@
  * Clip target: "HorizonFSMobileFlightSimulatorClip"
  * Clip bundle ID: com.beatrackfaminc.horizonfs.HorizonFS
  *   — the App ID does NOT exist yet in the Developer portal. Joey creates
- *     it (name: "HorizonFS App Clip") plus the "HorizonFS App Clip"
+ *     it (name: "HorizonFS - Mobile Flight Simulator App Clip") plus the "HorizonFS - Mobile Flight Simulator App Clip"
  *     provisioning profile; the agent never creates App IDs or profiles.
  *     Do NOT change this bundle ID once the App ID exists.
  * Clip UI: plugins/app-clip/ClipApp.swift + ContentView.swift — a tiny,
@@ -35,7 +35,7 @@
  *      main target depend on the clip, so `xcodebuild archive` of the main
  *      scheme builds the clip and embeds it at AppClips/ inside the .app.
  *   4. Sets the Release PROVISIONING_PROFILE_SPECIFIER per target in the
- *      project (main -> "HorizonFS App", clip -> "HorizonFS App Clip"). This
+ *      project (main -> "HorizonFS - Mobile Flight Simulator", clip -> "HorizonFS - Mobile Flight Simulator App Clip"). This
  *      MUST be per-target in the project: the workflow used to pass
  *      PROVISIONING_PROFILE_SPECIFIER on the xcodebuild command line, which
  *      would force the clip onto the main app's profile and fail signing.
@@ -44,8 +44,8 @@
  *      certificate identity).
  *
  * PORTAL PREREQUISITE (Joey): the clip App ID does NOT exist yet — create
- * it in the Developer portal first ("HorizonFS App Clip"), then the
- * provisioning profile "HorizonFS App Clip" (App Store distribution, for the
+ * it in the Developer portal first ("HorizonFS - Mobile Flight Simulator App Clip"), then the
+ * provisioning profile "HorizonFS - Mobile Flight Simulator App Clip" (App Store distribution, for the
  * clip App ID above, including the Nov 6 Apple Distribution certificate)
  * must exist in the Developer portal before the archive will sign. The
  * workflow uses -allowProvisioningUpdates, so once the profile exists the
@@ -64,8 +64,8 @@
  * Remaining step after a fresh build ships these entitlements: create the
  * App Clip Experience in App Store Connect under the parent app.
  *
- * OPEN ITEM: the clip's "Get the full app" overlay needs the HorizonFS App
- * Store ID (plugins/app-clip/ContentView.swift, `appStoreID`) — it is a
+ * OPEN ITEM: the clip's "Get the full app" overlay needs the HorizonFS
+ * App Store ID (plugins/app-clip/ContentView.swift, `appStoreID`) — it is a
  * clearly-marked TODO there. There is no ASC app record for
  * com.beatrackfaminc.horizonfs yet, so no ID exists to fill in; the
  * TestFlight upload fails until Joey creates the record. Fill the ID in
@@ -83,8 +83,8 @@ const path = require('path');
 
 const CLIP_TARGET_NAME = 'HorizonFSMobileFlightSimulatorClip';
 const CLIP_BUNDLE_ID = 'com.beatrackfaminc.horizonfs.HorizonFS';
-const CLIP_PROFILE_NAME = 'HorizonFS App Clip';
-const MAIN_PROFILE_NAME = 'HorizonFS App';
+const CLIP_PROFILE_NAME = 'HorizonFS - Mobile Flight Simulator App Clip';
+const MAIN_PROFILE_NAME = 'HorizonFS - Mobile Flight Simulator';
 const MAIN_TARGET_DIR = 'HorizonFSMobileFlightSimulator';
 
 /** Contents.json for the clip's own AppIcon set: a single 1024x1024 icon,
