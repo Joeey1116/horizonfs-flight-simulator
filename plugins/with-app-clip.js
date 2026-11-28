@@ -7,10 +7,11 @@
  *
  * Clip target: "HorizonFSMobileFlightSimulatorClip"
  * Clip bundle ID: com.beatrackfaminc.horizonfs.HorizonFS
- *   — the App ID does NOT exist yet in the Developer portal. Joey creates
- *     it (name: "HorizonFS - Mobile Flight Simulator App Clip") plus the "HorizonFS - Mobile Flight Simulator App Clip"
- *     provisioning profile; the agent never creates App IDs or profiles.
- *     Do NOT change this bundle ID once the App ID exists.
+ *   — the App ID EXISTS in the Developer portal (name: "HorizonFS - Mobile Flight Simulator App Clip"),
+ *     as does the "HorizonFS - Mobile Flight Simulator App Clip" provisioning profile
+ *     (names verified against the portal Nov 27, 2026, commit 9c38456).
+ *     NEVER create a new App ID or profile — edit/regenerate the existing
+ *     ones in place only. Do NOT change this bundle ID.
  * Clip UI: plugins/app-clip/ClipApp.swift + ContentView.swift — a tiny,
  *   dependency-free SwiftUI app (today's featured flight card + Get the
  *   Full App overlay). It does NOT embed React Native: the first
@@ -43,13 +44,14 @@
  *      target is unchanged (same Manual style, same profile, same
  *      certificate identity).
  *
- * PORTAL PREREQUISITE (Joey): the clip App ID does NOT exist yet — create
- * it in the Developer portal first ("HorizonFS - Mobile Flight Simulator App Clip"), then the
- * provisioning profile "HorizonFS - Mobile Flight Simulator App Clip" (App Store distribution, for the
+ * PORTAL STATE (verified Nov 27, 2026): the clip App ID
+ * ("HorizonFS - Mobile Flight Simulator App Clip") and the provisioning profile
+ * "HorizonFS - Mobile Flight Simulator App Clip" (App Store distribution, for the
  * clip App ID above, including the Nov 6 Apple Distribution certificate)
- * must exist in the Developer portal before the archive will sign. The
- * workflow uses -allowProvisioningUpdates, so once the profile exists the
- * build fetches it. If that profile is ever renamed, update
+ * EXIST in the Developer portal — never create new ones; edit/regenerate
+ * the existing ones in place only. The
+ * workflow uses -allowProvisioningUpdates, so the build fetches the
+ * profile. If that profile is ever renamed, update
  * CLIP_PROFILE_NAME below AND the ExportOptions.plist entry in
  * .github/workflows/ios-build.yml to match, character for character.
  *
@@ -58,18 +60,16 @@
  * `appclips:` mode is what App Store Connect checks when creating an
  * Advanced App Clip Experience — `applinks:` alone was rejected with "This
  * URL is not contained in your app's associated domains"). The AASA file on
- * beatrackfam.info carries the `appclips` section for the other five apps'
- * clips; HorizonFS's clip ID (com.beatrackfaminc.horizonfs.HorizonFS) must
- * be added there once the App ID exists.
+ * beatrackfam.info carries the `appclips` section with ALL eight apps'
+ * clips, including HorizonFS's clip ID
+ * (com.beatrackfaminc.horizonfs.HorizonFS) — added and live-verified
+ * Nov 27, 2026.
  * Remaining step after a fresh build ships these entitlements: create the
  * App Clip Experience in App Store Connect under the parent app.
  *
- * OPEN ITEM: the clip's "Get the full app" overlay needs the HorizonFS
- * App Store ID (plugins/app-clip/ContentView.swift, `appStoreID`) — it is a
- * clearly-marked TODO there. There is no ASC app record for
- * com.beatrackfaminc.horizonfs yet, so no ID exists to fill in; the
- * TestFlight upload fails until Joey creates the record. Fill the ID in
- * when the record exists — do NOT guess one.
+ * RESOLVED: the clip's "Get the full app" overlay App Store ID is filled
+ * in (plugins/app-clip/ContentView.swift, `appStoreID` = 6835243270,
+ * commit c079ab3 — the ASC record was created Nov 15, 2026).
  *
  * SIZE: App Clips must be under 15 MB thinned. The first (React Native)
  * clip was 40 MB and Apple rejected it (ITMS-90865, Nov 10 2026). This

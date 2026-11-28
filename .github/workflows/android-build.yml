@@ -11,9 +11,11 @@ name: Build Android AAB (HorizonFS)
 #      BeaTrackFam app's keystore. Generate one with EAS
 #      (npx eas-cli credentials -p android) or keytool, then base64-encode
 #      the .jks into the ANDROID_KEYSTORE_BASE64 secret.
-#   2. Create the Play Console app record for package
-#      com.beatrackfaminc.horizonfs, and add the four signing secrets plus
-#      PLAY_SERVICE_ACCOUNT_JSON (Settings, Secrets and variables, Actions).
+#   2. The Play Console app record for package
+#      com.beatrackfaminc.horizonfs EXISTS (created by Joey; listing set
+#      up Nov 24, 2026) — do not create another. The four signing secrets
+#      plus PLAY_SERVICE_ACCOUNT_JSON are the repo secrets this workflow
+#      reads (Settings, Secrets and variables, Actions).
 #
 # Signing: each run decodes the keystore next to the generated project,
 # points the release build at it via .github/scripts/android-signing.py

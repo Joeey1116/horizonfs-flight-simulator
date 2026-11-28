@@ -6,19 +6,20 @@ name: Build iOS IPA (HorizonFS)
 # HUMAN PREREQUISITES (do these first, or the upload step will fail):
 #   1. The App Store Connect app record for bundle ID
 #      com.beatrackfaminc.horizonfs ("HorizonFS: Mobile Flight Simulator")
-#      does NOT exist yet — create it in App Store Connect first.
+#      EXISTS (created Nov 15, 2026; Apple ID 6835243270; builds already
+#      uploaded). Do NOT create another record for this bundle ID.
 #   2. In Apple Developer / App Store Connect, create an API key and add
 #      these repo secrets (Settings, Secrets and variables, Actions):
 #        ASC_API_KEY_ID, ASC_API_KEY_P8, ASC_API_ISSUER_ID, APPLE_TEAM_ID
 #      plus the distribution certificate secrets:
 #        IOS_DISTRIBUTION_P12, IOS_DISTRIBUTION_PASSWORD
-#   3. APP CLIP (bundle ID com.beatrackfaminc.horizonfs.HorizonFS — the App ID does NOT exist
-#      yet): create it in the Developer portal ("HorizonFS - Mobile Flight Simulator App Clip"; do
-#      not create another one once it exists), plus the App ID for the
-#      main app, and provisioning profiles named exactly "HorizonFS - Mobile Flight Simulator"
+#   3. APP CLIP (bundle ID com.beatrackfaminc.horizonfs.HorizonFS): the
+#      clip App ID and the main App ID EXIST in the Developer portal, as
+#      do the provisioning profiles named exactly "HorizonFS - Mobile Flight Simulator"
 #      and "HorizonFS - Mobile Flight Simulator App Clip" (App Store distribution, including the Nov 6
-#      Apple Distribution certificate). Until those profiles exist, the
-#      archive step fails on signing. The plugin
+#      Apple Distribution certificate; names verified against the portal
+#      Nov 27, 2026, commit 9c38456). NEVER create a new App ID or profile —
+#      edit/regenerate the existing ones in place only. The plugin
 #      (plugins/with-app-clip.js) sets both profiles per-target in the
 #      project, so the archive step deliberately does NOT pass
 #      PROVISIONING_PROFILE_SPECIFIER on the command line.
@@ -28,8 +29,7 @@ name: Build iOS IPA (HorizonFS)
 #      "Load Supabase config" step from the Flight Journal
 #      workflow.
 #
-# Pattern copied from the proven workflow in the HorizonFS repo
-# (Joeey1116/horizonfs-ai-companion-app/.github/workflows/ios-build.yml),
+# Pattern copied from the proven workflow in the Flight Journal repo,
 # itself modeled on the main BeaTrackFam app repo.
 
 on:
