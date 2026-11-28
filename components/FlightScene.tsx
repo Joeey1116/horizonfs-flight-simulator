@@ -1,4 +1,5 @@
 import { useMemo, useRef } from 'react';
+import { Platform, StyleSheet, Text, View } from 'react-native';
 import { Canvas, useFrame } from '@react-three/fiber';
 import * as THREE from 'three';
 import type { MutableRefObject } from 'react';
@@ -272,6 +273,28 @@ export function FlightScene({
 }) {
   const clouds = useClouds();
 
+  // tvOS (Nov 27, 2026): expo-gl has no tvOS support, and the tvOS JS
+  // bundle uses the fork's ios platform resolution, so
+  // FlightScene.macos.tsx does NOT apply here. Render the same honest
+  // placeholder the macOS variant shows (mirroring its copy and style):
+  // the rest of the app is fully present on TV, but the 3D view itself
+  // does not render on Apple TV. Platform.isTV is false on every other
+  // platform, so iOS/Android/web/macOS are unchanged.
+  if ((Platform as unknown as { isTV?: boolean }).isTV) {
+    return (
+      <View style={tvStyles.root}>
+        <Text style={tvStyles.title}>3D flight view isn't available on TV yet</Text>
+        <Text style={tvStyles.body}>
+          {setup.aircraft.name} · {setup.airport.icao} · Runway {setup.runway.ident}
+        </Text>
+        <Text style={tvStyles.body}>
+          The 3D view runs on iPhone, iPad and Android. On Apple TV you can still
+          browse the full fleet and airport catalog and review your flight log.
+        </Text>
+      </View>
+    );
+  }
+
   return (
     <Canvas
       dpr={[1, 2]}
@@ -313,3 +336,16 @@ export function FlightScene({
     </Canvas>
   );
 }
+
+const tvStyles = StyleSheet.create({
+  root: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: '#0C1B33',
+    paddingHorizontal: 32,
+    gap: 10,
+  },
+  title: { color: '#FFFFFF', fontSize: 20, fontWeight: '700', textAlign: 'center' },
+  body: { color: '#94A3B8', fontSize: 14, textAlign: 'center', lineHeight: 20 },
+});
