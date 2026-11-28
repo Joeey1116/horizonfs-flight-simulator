@@ -88,8 +88,19 @@ jobs:
           node-version: '24'
           cache: npm
 
+        # --legacy-peer-deps is required in ALL build workflows:
+        # react-native-macos@0.83.0 lives in the SHARED package.json (it
+        # is a devDependency of the one project all platforms build
+        # from) and declares a peer on react-native@0.83.10 while the
+        # app runs react-native@0.86, so a strict npm ci dies with
+        # ERESOLVE before anything installs — on iOS and Android too,
+        # not just macOS. The flag only skips peer enforcement: the
+        # lockfile pins every version, so the installed tree is
+        # identical with or without it. Keep the flag in
+        # macos-build.yml / ios-build.yml / android-build.yml in sync
+        # for as long as react-native-macos is a project dependency.
       - name: Install JS dependencies
-        run: npm ci
+        run: npm ci --legacy-peer-deps
         env:
           EXPO_NO_TELEMETRY: '1'
 

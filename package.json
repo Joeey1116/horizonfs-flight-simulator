@@ -1,1 +1,46 @@
-{"dependencies":{"@expo/vector-icons":"^15.1.1","@react-native-async-storage/async-storage":"2.2.0","@react-three/fiber":"^9.0.0","expo":"~57.0.26","expo-asset":"~57.0.21","expo-build-properties":"~57.0.22","expo-constants":"~57.0.20","expo-font":"~57.0.0","expo-gl":"~57.0.0","expo-linking":"~57.0.11","expo-router":"~57.0.24","expo-status-bar":"~57.0.1","expo-tracking-transparency":"~57.0.2","react":"19.2.3","react-dom":"19.2.3","react-native":"0.86.3","react-native-iap":"17.0.1","react-native-safe-area-context":"~5.7.0","react-native-screens":"~4.26.0","react-native-web":"^0.21.4","three":"^0.187.0"},"devDependencies":{"@types/react":"~19.2.0","@types/three":"^0.187.0","typescript":"~6.0.3"},"main":"expo-router/entry","name":"horizonfs-flight-simulator","private":true,"scripts":{"android":"expo run:android","ios":"expo run:ios","start":"expo start","typecheck":"tsc --noEmit","web":"expo start --web"},"version":"1.0.0"}
+{
+  "dependencies": {
+    "@expo/vector-icons": "^15.1.1",
+    "@react-native-async-storage/async-storage": "2.2.0",
+    "@react-three/fiber": "^9.0.0",
+    "expo": "~57.0.26",
+    "expo-asset": "~57.0.21",
+    "expo-build-properties": "~57.0.22",
+    "expo-constants": "~57.0.20",
+    "expo-font": "~57.0.0",
+    "expo-gl": "~57.0.0",
+    "expo-linking": "~57.0.11",
+    "expo-router": "~57.0.24",
+    "expo-status-bar": "~57.0.1",
+    "expo-tracking-transparency": "~57.0.2",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "react-native": "0.86.3",
+    "react-native-iap": "17.0.1",
+    "react-native-nitro-modules": "^0.37.2",
+    "react-native-safe-area-context": "~5.7.0",
+    "react-native-screens": "~4.26.0",
+    "react-native-web": "^0.21.4",
+    "three": "^0.187.0"
+  },
+  "devDependencies": {
+    "@react-native-community/cli": "^20.2.0",
+    "@react-native/metro-config": "^0.86.3",
+    "@types/react": "~19.2.0",
+    "@types/three": "^0.187.0",
+    "react-native-macos": "^0.83.0",
+    "typescript": "~6.0.3"
+  },
+  "main": "expo-router/entry",
+  "name": "horizonfs-flight-simulator",
+  "private": true,
+  "scripts": {
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "start": "expo start",
+    "typecheck": "tsc --noEmit",
+    "web": "expo start --web",
+    "run:macos": "react-native run-macos"
+  },
+  "version": "1.0.0"
+}
