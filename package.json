@@ -15,7 +15,7 @@
     "expo-tracking-transparency": "~57.0.2",
     "react": "19.2.3",
     "react-dom": "19.2.3",
-    "react-native": "0.86.3",
+    "react-native": "npm:react-native-tvos@0.86.3-0",
     "react-native-iap": "17.0.1",
     "react-native-nitro-modules": "^0.37.2",
     "react-native-safe-area-context": "~5.7.0",
@@ -25,6 +25,7 @@
   },
   "devDependencies": {
     "@react-native-community/cli": "^20.2.0",
+    "@react-native-tvos/config-tv": "0.1.7",
     "@react-native/metro-config": "^0.86.3",
     "@types/react": "~19.2.0",
     "@types/three": "^0.187.0",
