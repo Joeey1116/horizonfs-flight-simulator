@@ -25,7 +25,10 @@ name: Build macOS (HorizonFS)
 # (fixed to match the portal, Nov 27, 2026; type "Mac", not Catalyst;
 # App ID com.beatrackfaminc.horizonfs). If the portal shows a
 # different name for the Mac profile, update MAC_PROFILE_NAME below
-# AND the project setting in macos/ together, or signing will fail.
+# AND the app target's PROVISIONING_PROFILE_SPECIFIER in
+# macos/horizonfs-flight-simulator.xcodeproj/project.pbxproj (the
+# export step no longer names a profile — see its comment), or
+# signing will fail.
 #
 # ⚠️ VERSION MISMATCH RISK (known, accepted for the pilot):
 # The app runs react-native 0.86 (Expo SDK 57). react-native-macos —
@@ -73,7 +76,11 @@ permissions:
   contents: read
 
 env:
-  # ⚠️ Must match the profile name in the Developer portal exactly.
+  # ⚠️ Must match the profile name in the Developer portal exactly —
+  # this is the canonical record of the name the app target's
+  # PROVISIONING_PROFILE_SPECIFIER (in the macos project) must carry.
+  # The export step no longer reads it (automatic signing, run #9 fix
+  # pattern from the Flight Journal pilot).
   MAC_PROFILE_NAME: 'HorizonFS - Mobile Flight Simulator'
 
 jobs:
@@ -210,8 +217,8 @@ jobs:
         # CODE_SIGN_STYLE and CODE_SIGN_IDENTITY stay global here —
         # they are harmless on SPM targets; run #4's only error was
         # the profile. If the portal profile is ever renamed, update
-        # MAC_PROFILE_NAME (used by the export step below) AND the
-        # project setting above together.
+        # MAC_PROFILE_NAME below AND the project setting above
+        # together.
         timeout-minutes: 50
         env:
           ASC_API_KEY_ID: ${{ secrets.ASC_API_KEY_ID }}
@@ -235,6 +242,39 @@ jobs:
             CURRENT_PROJECT_VERSION="$APP_BUILD"
 
       - name: Export the .pkg
+        # MAC APP STORE export: method=app-store-connect is the current
+        # name of the App Store method — this app ships through App
+        # Store Connect (portal record + Mac profile + separate
+        # review), NOT Developer ID direct distribution.
+        #
+        # signingStyle=automatic HERE ONLY — the archive step above
+        # stays manual; do not "align" them. Flight Journal Mac run #9
+        # (Nov 27, 2026) archived successfully, then this step failed
+        # (exit 70) with:
+        #   error: exportArchive No signing certificate
+        #   "Mac Installer Distribution" found
+        # A Mac App Store .pkg must be signed with a "Mac Installer
+        # Distribution" certificate, but the imported .p12 carries
+        # only the app distribution certificate, and under
+        # signingStyle=manual xcodebuild will not create the missing
+        # one. With automatic signing + -allowProvisioningUpdates +
+        # the App Store Connect API key flags below, xcodebuild can
+        # create/download the installer certificate at export time.
+        # (Certificate creation via an API key depends on the key's
+        # role — an Admin-role key can create certificates. If a
+        # future run still fails with the same error, the fallback is
+        # to create a "Mac Installer Distribution" certificate in the
+        # portal and add it to the imported .p12.)
+        #
+        # destination=export is explicit so the path stays singular:
+        # the .pkg lands in build/pkg and the steps below (run
+        # artifact + altool upload) are the ONE upload path.
+        # destination=upload would have xcodebuild upload directly
+        # and leave no .pkg for those steps.
+        #
+        # No provisioningProfiles dict: under automatic signing Xcode
+        # manages profiles itself, and the archive already embeds the
+        # Mac profile scoped in the project (see the archive step).
         env:
           ASC_API_KEY_ID: ${{ secrets.ASC_API_KEY_ID }}
           ASC_API_ISSUER_ID: ${{ secrets.ASC_API_ISSUER_ID }}
@@ -247,10 +287,12 @@ jobs:
           <dict>
             <key>method</key>
             <string>app-store-connect</string>
+            <key>destination</key>
+            <string>export</string>
             <key>teamID</key>
             <string>${APPLE_TEAM_ID}</string>
             <key>signingStyle</key>
-            <string>manual</string>
+            <string>automatic</string>
             <key>manageAppVersionAndBuildNumber</key>
             <false/>
             <key>compileBitcode</key>
@@ -259,11 +301,6 @@ jobs:
             <false/>
             <key>uploadSymbols</key>
             <true/>
-            <key>provisioningProfiles</key>
-            <dict>
-              <key>com.beatrackfaminc.horizonfs</key>
-              <string>${MAC_PROFILE_NAME}</string>
-            </dict>
           </dict>
           </plist>
           PLIST
